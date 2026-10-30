@@ -1,0 +1,5 @@
+Pairs checked: 537
+Mean similarity: 0.820
+Median similarity: 0.870
+Pairs >90% similar: 205 / 537
+Pairs >99% similar: 53 / 537

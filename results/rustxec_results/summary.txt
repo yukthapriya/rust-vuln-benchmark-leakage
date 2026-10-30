@@ -1,0 +1,12 @@
+RustXec experiments (E4 / E3 / E7)
+============================================================
+files=310  all-positive baseline F1=0.6667 acc=0.5000
+
+e4_advisory_split|codebert|seed42          F1 0.5244+/-0.2628  acc 0.4903  MCC -0.0451
+e4_crate_split|codebert|seed42             F1 0.5333+/-0.2667  acc 0.5000  MCC +0.0000
+e3_injected|codebert|seed42                F1 1.0000+/-0.0000  acc 1.0000  MCC +1.0000
+
+Reading it:
+  E4 well below 1.0 -> leakage-free performance; the contrast number.
+  E3 near 1.0       -> headers alone restore perfect scores: causal proof.
+  E7 at/below chance-> nothing learned on v4 transfers.

@@ -1,0 +1,13 @@
+
+=== STATIC-ONLY MODEL PERFORMANCE ===
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       189
+           1       1.00      1.00      1.00       188
+
+    accuracy                           1.00       377
+   macro avg       1.00      1.00      1.00       377
+weighted avg       1.00      1.00      1.00       377
+
+
+Saved static-only model to static_only_model.pkl

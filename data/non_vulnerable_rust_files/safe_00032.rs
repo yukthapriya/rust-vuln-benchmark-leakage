@@ -1,0 +1,17 @@
+// REAL FIXED CODE
+// RustSec ID: RUSTSEC-2019-0011 (FIXED)
+// Crate: memoffset
+// Type: memory_safety (FIXED)
+// Extraction Method: repo_search
+// GitHub Repo: Gilnaa/memoffset
+// Commit: 8561baa
+// File: src/offset_of.rs
+
+
+/// ```
+ ///
+ /// ## Note
+/// Due to `macro_rules!` limitations, this macro will accept structs with a single field as well as unions.
+ /// This is not a stable guarantee, and future versions of this crate might fail
+ /// on any use of this macro with a struct, without a semver bump.
+ #[macro_export(local_inner_macros)]

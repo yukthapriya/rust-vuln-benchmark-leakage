@@ -1,0 +1,150 @@
+{
+  "dirty": {
+    "tfidf_lr": {
+      "accuracy": {
+        "mean": 0.5802,
+        "std": 0.0214
+      },
+      "precision": {
+        "mean": 0.5877,
+        "std": 0.0339
+      },
+      "recall": {
+        "mean": 0.5622,
+        "std": 0.048
+      },
+      "f1": {
+        "mean": 0.5718,
+        "std": 0.0129
+      }
+    },
+    "static_rf": {
+      "accuracy": {
+        "mean": 0.731,
+        "std": 0.0223
+      },
+      "precision": {
+        "mean": 0.7191,
+        "std": 0.0323
+      },
+      "recall": {
+        "mean": 0.7635,
+        "std": 0.0428
+      },
+      "f1": {
+        "mean": 0.7393,
+        "std": 0.0201
+      }
+    },
+    "codebert_ml": {
+      "accuracy": {
+        "mean": 0.5233,
+        "std": 0.0213
+      },
+      "precision": {
+        "mean": 0.5145,
+        "std": 0.014
+      },
+      "recall": {
+        "mean": 0.9196,
+        "std": 0.081
+      },
+      "f1": {
+        "mean": 0.6579,
+        "std": 0.0118
+      }
+    },
+    "hybrid": {
+      "accuracy": {
+        "mean": 0.4991,
+        "std": 0.0085
+      },
+      "precision": {
+        "mean": 0.495,
+        "std": 0.0115
+      },
+      "recall": {
+        "mean": 0.4836,
+        "std": 0.2065
+      },
+      "f1": {
+        "mean": 0.4652,
+        "std": 0.1278
+      }
+    }
+  },
+  "clean": {
+    "tfidf_lr": {
+      "accuracy": {
+        "mean": 0.5751,
+        "std": 0.022
+      },
+      "precision": {
+        "mean": 0.5828,
+        "std": 0.0239
+      },
+      "recall": {
+        "mean": 0.9091,
+        "std": 0.0413
+      },
+      "f1": {
+        "mean": 0.7095,
+        "std": 0.0186
+      }
+    },
+    "static_rf": {
+      "accuracy": {
+        "mean": 0.6165,
+        "std": 0.033
+      },
+      "precision": {
+        "mean": 0.6549,
+        "std": 0.0354
+      },
+      "recall": {
+        "mean": 0.6951,
+        "std": 0.0512
+      },
+      "f1": {
+        "mean": 0.6737,
+        "std": 0.0373
+      }
+    },
+    "codebert_ml": {
+      "accuracy": {
+        "mean": 0.587,
+        "std": 0.0131
+      },
+      "precision": {
+        "mean": 0.6497,
+        "std": 0.0603
+      },
+      "recall": {
+        "mean": 0.6583,
+        "std": 0.1284
+      },
+      "f1": {
+        "mean": 0.6404,
+        "std": 0.0385
+      }
+    },
+    "hybrid": {
+      "accuracy": {
+        "mean": 0.5826,
+        "std": 0.0267
+      },
+      "precision": {
+        "mean": 0.6049,
+        "std": 0.051
+      },
+      "recall": {
+        "mean": 0.8476,
+        "std": 0.1218
+      },
+      "f1": {
+        "mean": 0.6967,
+        "std": 0.0173
+      }
+    }
+  }
+}

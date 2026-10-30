@@ -1,0 +1,1169 @@
+rustsec_id,crate,reason,detail
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::_impl::Sha1::digest
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::_impl::Sha1::update
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::bytes
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::bytes_of_file
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::bytes_with_hasher
+RUSTSEC-2025-0021,gix-features,identical_after_normalization,gix-features/src/hash.rs::crc32
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::hasher
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::write::Write<T>::flush
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::write::Write<T>::new
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-features/src/hash.rs::write::Write<T>::write
+RUSTSEC-2025-0021,gix-features,function_missing_at_one_revision,gix-object/src/lib.rs::object_hasher
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/multi_index/write.rs::multi_index::File::write_from_index_paths
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/verify.rs::checksum_on_disk_or_mmap
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-index/src/file/verify.rs::File::verify_integrity
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-index/src/file/init.rs::File::at
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-object/src/data.rs::verify::crate::Data<'_>::verify_checksum
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/data/input/bytes_to_entries.rs::BytesToEntriesIter<BR>::try_read_trailer
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,"gix-pack/src/data/input/entries_to_bytes.rs::EntriesToBytesIter<I, W>::next"
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,"gix-pack/src/data/output/bytes.rs::FromEntriesIter<I, W>::next_inner"
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/index/traverse/mod.rs::index::File::possibly_verify
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/index/traverse/mod.rs::process_entry
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-index/src/decode/mod.rs::State::from_bytes
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-object/src/lib.rs::compute_hash
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/index/write/mod.rs::crate::index::File::write_data_iter_to_stream
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-filter/src/ident.rs::apply
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-object/src/lib.rs::compute_stream_hash
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/store_impls/loose/verify.rs::Store::verify_integrity
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gitoxide-core/src/pack/explode.rs::pack_or_pack_index
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/index/encode.rs::function::write_to
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-status/src/index_as_worktree_with_renames/mod.rs::function::rewrite::calculate_worktree_id
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-commitgraph/src/verify.rs::Graph::verify_integrity
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-index/src/extension/end_of_index_entry/write.rs::write_to
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-index/src/file/write.rs::File::write_to
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/store_impls/loose/write.rs::Store::dest
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/data/input/bytes_to_entries.rs::BytesToEntriesIter<BR>::next_inner
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/index/write/mod.rs::modify_base
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,"gix-status/src/index_as_worktree/function.rs::ReadDataImpl<'a, Find>::stream_worktree_file"
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-status/src/index_as_worktree/traits.rs::HashEq::compare_blobs
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-commitgraph/src/file/verify.rs::File::traverse
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/sink.rs::Sink::write_stream
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/store_impls/loose/write.rs::Store::finalize_object
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/store_impls/loose/write.rs::Store::write
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/store_impls/loose/write.rs::Store::write_buf
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/store_impls/loose/write.rs::Store::write_stream
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/data/input/bytes_to_entries.rs::BytesToEntriesIter<BR>::new_from_header
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,"gix-pack/src/data/input/entries_to_bytes.rs::EntriesToBytesIter<I, W>::write_header_and_digest"
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,"gix-status/src/index_as_worktree/function.rs::State<'_, 'index>::compute_status"
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-filter/src/eol/convert_to_worktree.rs::convert_to_worktree
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-index/src/file/write.rs::File::write
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-index/src/write.rs::State::write_to
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-odb/src/memory.rs::Proxy<T>::write_stream
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/data/input/bytes_to_entries.rs::crate::data::File::streaming_iter
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,"gix-pack/src/data/input/entries_to_bytes.rs::EntriesToBytesIter<I, W>::next_inner"
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/data/input/entry.rs::compress_data
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,"gix-pack/src/data/output/bytes.rs::FromEntriesIter<I, W>::new"
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix-pack/src/index/verify.rs::index::File::verify_integrity
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix/src/repository/impls.rs::crate::Repository::write_buf
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix/src/repository/object.rs::crate::Repository::write_blob
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix/src/repository/object.rs::crate::Repository::write_blob_stream_inner
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,gix/src/repository/object.rs::crate::Repository::write_object_inner
+RUSTSEC-2025-0021,gix-features,over_per_advisory_cap,tests/it/src/commands/git_to_sh.rs::function::write_tree_as_update_index_format
+RUSTSEC-2025-0018,xmas-elf,function_missing_at_one_revision,src/hash.rs::HashTable::get_bucket
+RUSTSEC-2025-0018,xmas-elf,function_missing_at_one_revision,src/hash.rs::HashTable::get_chain
+RUSTSEC-2025-0018,xmas-elf,function_missing_at_one_revision,src/hash.rs::HashTable::lookup
+RUSTSEC-2025-0018,xmas-elf,function_missing_at_one_revision,src/hash.rs::HashTable<'a>::get_bucket
+RUSTSEC-2025-0018,xmas-elf,function_missing_at_one_revision,src/hash.rs::HashTable<'a>::get_chain
+RUSTSEC-2025-0018,xmas-elf,function_missing_at_one_revision,src/hash.rs::HashTable<'a>::lookup
+RUSTSEC-2025-0018,xmas-elf,function_missing_at_one_revision,src/hash.rs::HashTable<'a>::read
+RUSTSEC-2025-0016,pared,over_per_advisory_cap,src/prc.rs::Prc<T>::try_from_rc
+RUSTSEC-2025-0016,pared,over_per_advisory_cap,src/sync.rs::Parc<T>::project
+RUSTSEC-2025-0016,pared,over_per_advisory_cap,src/sync.rs::Parc<T>::try_from_arc
+RUSTSEC-2025-0015,web-push,over_per_advisory_cap,src/error.rs::WebPushError::short_description
+RUSTSEC-2024-0437,protobuf,function_missing_at_one_revision,"protobuf/src/coded_input_stream/mod.rs::CodedInputStream<'a>::DecrRecursion<'a, 'b>::drop"
+RUSTSEC-2024-0437,protobuf,function_missing_at_one_revision,protobuf/src/coded_input_stream/mod.rs::CodedInputStream<'a>::merge_message_no_depth_check
+RUSTSEC-2024-0437,protobuf,function_missing_at_one_revision,protobuf/src/coded_input_stream/mod.rs::CodedInputStream<'a>::skip_group_no_depth_check
+RUSTSEC-2024-0406,ic-stable-structures,function_missing_at_one_revision,src/btreemap/node.rs::Node<K>::deallocate
+RUSTSEC-2024-0406,ic-stable-structures,identical_after_normalization,src/btreemap/node.rs::Node<K>::split
+RUSTSEC-2024-0402,hashbrown,no_rust_files_changed,https://github.com/rust-lang/hashbrown/pull/581/files
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::check
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::code_lens
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::comment
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::copy_block
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::dict
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::dict_id
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::dist
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::dist_ext
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::ex_len
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::extra
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::flags
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::hcrc
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::head
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::len
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::len_
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::len_ext
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::len_lens
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::length
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::lit
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::match_
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::mem
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::name
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::os
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::stored
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::sync
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::table
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::time
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::type_
+RUSTSEC-2024-0401,zlib-rs,function_missing_at_one_revision,zlib-rs/src/inflate.rs::State<'a>::type_do
+RUSTSEC-2024-0373,quinn-proto,over_per_advisory_cap,quinn-proto/src/endpoint.rs::ConnectionIndex::insert_initial_incoming
+RUSTSEC-2024-0373,quinn-proto,over_per_advisory_cap,quinn-proto/src/endpoint.rs::ConnectionIndex::remove_initial
+RUSTSEC-2024-0373,quinn-proto,over_per_advisory_cap,quinn-proto/src/endpoint.rs::Endpoint::add_connection
+RUSTSEC-2024-0373,quinn-proto,over_per_advisory_cap,quinn-proto/src/endpoint.rs::Endpoint::clean_up_incoming
+RUSTSEC-2024-0363,sqlx,function_missing_at_one_revision,sqlx-postgres/src/types/hstore.rs::read_string
+RUSTSEC-2024-0363,sqlx,function_missing_at_one_revision,sqlx-postgres/src/types/hstore.rs::read_value
+RUSTSEC-2024-0362,alloy-json-abi,function_missing_at_one_revision,crates/sol-type-parser/src/ident.rs::identifier_parser
+RUSTSEC-2024-0362,alloy-json-abi,function_missing_at_one_revision,crates/sol-type-parser/src/utils.rs::parse_item
+RUSTSEC-2024-0362,alloy-json-abi,function_missing_at_one_revision,crates/sol-type-parser/src/utils.rs::parse_item_keyword
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/tuple.rs::TupleSpecifier<'a>::parse_types
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/utils.rs::array_parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/utils.rs::tuple_parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::int_sign
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/utils.rs::char_parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/utils.rs::str_parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::ValueParser<'a>::string
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::prefixed_int
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/primitives/src/utils/mod.rs::box_try_new_uninit
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/utils.rs::spanned
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::ValueParser<'_>::parse_next
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::ValueParser<'a>::tuple
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::fixed_bytes
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::hex_str
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::uint
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/json-abi/src/item.rs::AbiItem<'_>::parse
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/parameter.rs::ParameterSpecifier<'a>::parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/type_spec.rs::TypeSpecifier<'a>::parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/utils.rs::opt_ws_ident
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::DynSolType::coerce_str
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::ValueParser<'a>::array
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::ValueParser<'a>::fixed_array
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::address
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::bool
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::bytes
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::function
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::int
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/dyn-abi/src/coerce.rs::int_units
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/parameter.rs::ParameterSpecifier<'a>::parse
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/parameter.rs::Parameters<'a>::parse
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/parameter.rs::Parameters<'a>::parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/root.rs::RootType<'a>::parse
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/stem.rs::TypeStem<'a>::parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/tuple.rs::TupleSpecifier<'a>::parse
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/tuple.rs::TupleSpecifier<'a>::parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/type_spec.rs::TypeSpecifier<'a>::parse
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/type_spec.rs::array_size_parser
+RUSTSEC-2024-0362,alloy-json-abi,over_per_advisory_cap,crates/sol-type-parser/src/utils.rs::parse_signature
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gitoxide-core/src/lib.rs::is_dir_to_mode
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix-dir/src/walk/classify.rs::is_dir_to_mode
+RUSTSEC-2024-0350,gix-fs,identical_after_normalization,gix-dir/src/walk/classify.rs::is_eq
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix-index/src/entry/mode.rs::Mode::from
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix-index/src/init.rs::from_tree::CollectEntries::determine_action
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix-status/src/lib.rs::is_dir_to_mode
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix-worktree/src/stack/delegate.rs::validate_last_component
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix-worktree/src/stack/mod.rs::mode_is_dir
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix/src/config/cache/access.rs::Cache::protect_options
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix/src/lib.rs::is_dir_to_mode
+RUSTSEC-2024-0350,gix-fs,function_missing_at_one_revision,gix/src/pathspec.rs::is_dir_to_mode
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,"gix-worktree/src/stack/delegate.rs::StackDelegate<'a, 'find>::push"
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gitoxide-core/src/repository/attributes/query.rs::function::query
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gitoxide-core/src/repository/exclude.rs::query
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-discover/src/is.rs::git_with_metadata
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-ref/src/store/general/init.rs::crate::Store::at
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-fs/src/stack.rs::Stack::make_relative_path_current
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::State::from_tree
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/repository/index.rs::crate::Repository::index_from_tree
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-ref/src/store/file/loose/mod.rs::init::file::Store::at
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-ref/src/store/file/loose/mod.rs::init::file::Store::for_linked_worktree
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/clone/checkout.rs::main_worktree::PrepareCheckout::main_worktree_inner
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-dir/src/walk/classify.rs::path
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-worktree/src/stack/mod.rs::Stack::at_entry
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-worktree/src/stack/mod.rs::Stack::at_path
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gitoxide-core/src/repository/revision/resolve.rs::function::display_object
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-fs/src/capabilities.rs::Capabilities::probe_precompose_unicode
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::CollectEntries::add_entry
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::CollectEntries::new
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::CollectEntries::visit_nontree
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::CollectEntries::visit_tree
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-worktree-state/src/checkout/entry.rs::checkout
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-worktree/src/stack/delegate.rs::create_leading_directory
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-worktree/src/stack/state/attributes.rs::Attributes::push_directory
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-worktree/src/stack/state/mod.rs::State::for_checkout
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/attribute_stack.rs::AttributeStack<'repo>::at_entry
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/attribute_stack.rs::AttributeStack<'repo>::at_path
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/config/cache/incubate.rs::StageOne::new
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gitoxide-core/src/repository/attributes/validate_baseline.rs::function::validate_baseline
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gitoxide-core/src/repository/index/entries.rs::function::print_entries
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-fs/src/capabilities.rs::Capabilities::probe_symlink
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::CollectEntries::push_back_tracked_path_component
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::CollectEntries::push_element
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-index/src/init.rs::from_tree::CollectEntries::push_path_component
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-ref/src/store/file/find.rs::file::Store::ref_contents
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,"gix-status/src/index_as_worktree/function.rs::ReadDataImpl<'a, Find>::stream_worktree_file"
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,"gix-status/src/index_as_worktree/function.rs::State<'_, 'index>::process"
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-status/src/index_as_worktree_with_renames/mod.rs::function::index_as_worktree_with_renames
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-status/src/index_as_worktree_with_renames/mod.rs::function::rewrite::calculate_worktree_id
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix-worktree-state/src/checkout/function.rs::checkout_inner
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/config/cache/access.rs::Cache::checkout_options
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/config/cache/init.rs::Cache::from_stage_one
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/config/tree/sections/core.rs::Core::keys
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/config/tree/sections/gitoxide.rs::subsections::Core::keys
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/filter.rs::Pipeline<'repo>::convert_to_git
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/filter.rs::Pipeline<'repo>::convert_to_worktree
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/pathspec.rs::Pathspec<'repo>::pattern_matching_relative_path
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/pathspec.rs::PathspecDetached::pattern_matching_relative_path
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/repository/dirwalk.rs::Repository::dirwalk
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/repository/worktree.rs::crate::Repository::worktree_stream
+RUSTSEC-2024-0350,gix-fs,over_per_advisory_cap,gix/src/submodule/mod.rs::Submodule<'repo>::is_active
+RUSTSEC-2024-0345,sequoia-openpgp,unsupported_link,gitlab_host
+RUSTSEC-2024-0343,nano-id,no_usable_function_pairs,https://github.com/viz-rs/nano-id/commit/a9022772b2f1ce38929b5b81eccc670ac9d3ab23
+RUSTSEC-2024-0341,tls-listener,function_missing_at_one_revision,src/lib.rs::Builder<T>::accept_batch_size
+RUSTSEC-2024-0341,tls-listener,function_missing_at_one_revision,src/lib.rs::Builder<T>::max_handshakes
+RUSTSEC-2024-0341,tls-listener,over_per_advisory_cap,src/lib.rs::builder
+RUSTSEC-2024-0335,gix-transport,identical_after_normalization,gix-url/src/lib.rs::Url::user_argument_safe
+RUSTSEC-2024-0012,serde-json-wasm,over_per_advisory_cap,src/de/mod.rs::&'a mut Deserializer<'de>::deserialize_seq
+RUSTSEC-2024-0012,serde-json-wasm,over_per_advisory_cap,src/de/errors.rs::Error::fmt
+RUSTSEC-2024-0012,serde-json-wasm,over_per_advisory_cap,src/de/mod.rs::Deserializer<'a>::new
+RUSTSEC-2024-0009,trillium-http,function_missing_at_one_revision,http/src/headers/header_name.rs::HeaderName<'a>::is_valid
+RUSTSEC-2024-0009,trillium-http,identical_after_normalization,http/src/headers/header_name.rs::HeaderName<'a>::to_owned
+RUSTSEC-2024-0009,trillium-http,function_missing_at_one_revision,http/src/headers/header_value.rs::HeaderValue::is_valid
+RUSTSEC-2024-0009,trillium-http,function_missing_at_one_revision,http/src/headers/unknown_header_name.rs::UnknownHeaderName<'_>::into_owned
+RUSTSEC-2024-0009,trillium-http,function_missing_at_one_revision,http/src/headers/unknown_header_name.rs::UnknownHeaderName<'_>::is_valid
+RUSTSEC-2024-0009,trillium-http,function_missing_at_one_revision,http/src/headers/unknown_header_name.rs::UnknownHeaderName<'static>::from
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_name.rs::HeaderName<'a>::into_owned
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_value.rs::HeaderValue::as_ref
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_value.rs::HeaderValue::as_str
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_value.rs::HeaderValue::fmt
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_value.rs::HeaderValue::serialize
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_name.rs::HeaderName<'a>::from
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_name.rs::HeaderName<'static>::from
+RUSTSEC-2024-0009,trillium-http,over_per_advisory_cap,http/src/headers/header_value.rs::HeaderValue::from
+RUSTSEC-2023-0074,zerocopy,over_per_advisory_cap,"src/lib.rs::Ref<B, [T]>::into_slice"
+RUSTSEC-2023-0070,self_cell,no_usable_function_pairs,https://github.com/Voultapher/self_cell/pull/50/files
+RUSTSEC-2023-0068,cocoon,over_per_advisory_cap,"src/lib.rs::Cocoon<'a, Creation>::wrap"
+RUSTSEC-2023-0068,cocoon,over_per_advisory_cap,src/mini.rs::MiniCocoon::dump
+RUSTSEC-2023-0068,cocoon,over_per_advisory_cap,src/mini.rs::MiniCocoon::wrap
+RUSTSEC-2023-0066,pleaser,unsupported_link,gitlab_host
+RUSTSEC-2023-0062,bcder,function_missing_at_one_revision,"src/decode/content.rs::Primitive<'a, S>::with_slice_all"
+RUSTSEC-2023-0062,bcder,function_missing_at_one_revision,src/oid.rs::Component<'a>::fmt
+RUSTSEC-2023-0062,bcder,function_missing_at_one_revision,src/oid.rs::Oid<Bytes>::check_content
+RUSTSEC-2023-0062,bcder,function_missing_at_one_revision,src/oid.rs::Oid<Bytes>::from_primitive
+RUSTSEC-2023-0062,bcder,function_missing_at_one_revision,src/oid.rs::Oid<Bytes>::skip_primitive
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/oid.rs::Oid<Bytes>::take_from
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/oid.rs::Oid<Bytes>::take_opt_from
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/tag.rs::Tag::take_from_if
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,"src/decode/content.rs::Constructed<'a, S>::process_next_value"
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,"src/decode/content.rs::Constructed<'a, S>::skip_opt"
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/oid.rs::Oid<Bytes>::skip_in
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/oid.rs::Oid<Bytes>::skip_opt_in
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/string/bit.rs::BitString::new
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/string/bit.rs::BitString::skip_content
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/string/octet.rs::OctetStringOctets<'a>::next
+RUSTSEC-2023-0062,bcder,over_per_advisory_cap,src/string/restricted.rs::RestrictedString<L>::partial_cmp
+RUSTSEC-2023-0039,buffered-reader,unsupported_link,gitlab_host
+RUSTSEC-2023-0024,openssl,function_missing_at_one_revision,openssl/src/x509/mod.rs::GeneralName::new
+RUSTSEC-2023-0024,openssl,function_missing_at_one_revision,openssl/src/x509/mod.rs::GeneralName::new_dns
+RUSTSEC-2023-0024,openssl,function_missing_at_one_revision,openssl/src/x509/mod.rs::GeneralName::new_email
+RUSTSEC-2023-0024,openssl,function_missing_at_one_revision,openssl/src/x509/mod.rs::GeneralName::new_ip
+RUSTSEC-2023-0024,openssl,function_missing_at_one_revision,openssl/src/x509/mod.rs::GeneralName::new_rid
+RUSTSEC-2023-0024,openssl,function_missing_at_one_revision,openssl/src/x509/mod.rs::GeneralName::new_uri
+RUSTSEC-2023-0024,openssl,function_missing_at_one_revision,openssl/src/x509/mod.rs::X509Extension::new_internal
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::dir_name
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::other_name
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/mod.rs::X509Extension::new
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/mod.rs::X509Extension::new_nid
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::client_auth
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::code_signing
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::email_protection
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::ms_code_com
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::ms_code_ind
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::ms_ctl_sign
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::ms_efs
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::ms_sgc
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::ns_sgc
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::server_auth
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::time_stamping
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::ExtendedKeyUsage::other
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::dns
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::email
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::ip
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::new
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::rid
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/extension.rs::SubjectAlternativeName::uri
+RUSTSEC-2023-0024,openssl,over_per_advisory_cap,openssl/src/x509/mod.rs::X509NameBuilder::build
+RUSTSEC-2022-0101,wasmtime,identical_after_normalization,cranelift/codegen/src/isa/aarch64/inst/imms.rs::MoveWideConst::maybe_with_shift
+RUSTSEC-2022-0101,wasmtime,function_missing_at_one_revision,cranelift/codegen/src/isa/aarch64/inst/imms.rs::MoveWideConst::zero
+RUSTSEC-2022-0101,wasmtime,function_missing_at_one_revision,"cranelift/codegen/src/isa/aarch64/lower/isle.rs::IsleContext<'_, C, Flags, IsaFlags, 6>::move_wide_const_from_negated_u64"
+RUSTSEC-2022-0101,wasmtime,function_missing_at_one_revision,"cranelift/codegen/src/isa/aarch64/lower/isle.rs::IsleContext<'_, C, Flags, IsaFlags, 6>::move_wide_const_from_u64"
+RUSTSEC-2022-0093,ed25519-dalek,function_missing_at_one_revision,benches/ed25519_benchmarks.rs::ed25519_benches::sign_expanded_key
+RUSTSEC-2022-0093,ed25519-dalek,function_missing_at_one_revision,src/keypair.rs::Keypair::from
+RUSTSEC-2022-0093,ed25519-dalek,function_missing_at_one_revision,src/keypair.rs::Keypair::public_key
+RUSTSEC-2022-0093,ed25519-dalek,function_missing_at_one_revision,src/keypair.rs::Keypair::secret_key
+RUSTSEC-2022-0093,ed25519-dalek,function_missing_at_one_revision,src/secret.rs::ExpandedSecretKey::deserialize
+RUSTSEC-2022-0093,ed25519-dalek,function_missing_at_one_revision,src/secret.rs::ExpandedSecretKey::serialize
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/keypair.rs::Keypair::verify_strict
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/secret.rs::ExpandedSecretKey::from_bytes
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/errors.rs::InternalError::fmt
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/keypair.rs::Keypair::generate
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/keypair.rs::Keypair::sign_prehashed
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/keypair.rs::Keypair::verify_prehashed
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/secret.rs::ExpandedSecretKey::sign
+RUSTSEC-2022-0093,ed25519-dalek,over_per_advisory_cap,src/secret.rs::ExpandedSecretKey::sign_prehashed
+RUSTSEC-2022-0091,tauri,function_missing_at_one_revision,core/tauri/src/scope/fs.rs::escaped_pattern
+RUSTSEC-2022-0091,tauri,function_missing_at_one_revision,core/tauri/src/scope/fs.rs::escaped_pattern_with
+RUSTSEC-2022-0091,tauri,over_per_advisory_cap,core/tauri/src/scope/fs.rs::Scope::for_fs_api
+RUSTSEC-2022-0091,tauri,over_per_advisory_cap,core/tauri/src/scope/fs.rs::Scope::allow_file
+RUSTSEC-2022-0091,tauri,over_per_advisory_cap,core/tauri/src/scope/fs.rs::Scope::forbid_file
+RUSTSEC-2022-0066,conduit-hyper,function_missing_at_one_revision,src/service/blocking_handler.rs::bad_request
+RUSTSEC-2022-0066,conduit-hyper,function_missing_at_one_revision,src/service/blocking_handler.rs::check_content_length
+RUSTSEC-2022-0066,conduit-hyper,identical_after_normalization,src/service/blocking_handler.rs::server_error_response
+RUSTSEC-2022-0063,linked_list_allocator,function_missing_at_one_revision,src/hole.rs::HoleList::extend
+RUSTSEC-2022-0063,linked_list_allocator,identical_after_normalization,src/hole.rs::HoleList::first_hole
+RUSTSEC-2022-0063,linked_list_allocator,over_per_advisory_cap,src/test.rs::new_heap
+RUSTSEC-2022-0063,linked_list_allocator,over_per_advisory_cap,src/test.rs::new_max_heap
+RUSTSEC-2022-0063,linked_list_allocator,over_per_advisory_cap,src/hole.rs::Cursor::try_insert_after
+RUSTSEC-2022-0063,linked_list_allocator,over_per_advisory_cap,src/hole.rs::HoleList::empty
+RUSTSEC-2022-0063,linked_list_allocator,over_per_advisory_cap,src/lib.rs::Heap::size
+RUSTSEC-2022-0063,linked_list_allocator,over_per_advisory_cap,src/lib.rs::Heap::top
+RUSTSEC-2022-0038,juniper,function_missing_at_one_revision,juniper/src/validation/rules/no_fragment_cycles.rs::CycleDetector<'a>::detect_from_inner
+RUSTSEC-2022-0038,juniper,function_missing_at_one_revision,juniper/src/validation/rules/no_undefined_variables.rs::NoUndefinedVariables<'a>::find_undef_vars_inner
+RUSTSEC-2022-0038,juniper,function_missing_at_one_revision,juniper/src/validation/rules/no_unused_fragments.rs::NoUnusedFragments<'a>::find_reachable_fragments_inner
+RUSTSEC-2022-0038,juniper,function_missing_at_one_revision,juniper/src/validation/rules/no_unused_variables.rs::NoUnusedVariables<'a>::find_used_vars_inner
+RUSTSEC-2022-0038,juniper,function_missing_at_one_revision,"juniper/src/validation/rules/overlapping_fields_can_be_merged.rs::OverlappingFieldsCanBeMerged<'a, S>::collect_conflicts_between_fields_and_fragment_inner"
+RUSTSEC-2022-0038,juniper,function_missing_at_one_revision,"juniper/src/validation/rules/variables_in_allowed_position.rs::VariableInAllowedPosition<'a, S>::collect_incorrect_usages_inner"
+RUSTSEC-2022-0038,juniper,over_per_advisory_cap,"juniper/src/validation/rules/variables_in_allowed_position.rs::VariableInAllowedPosition<'a, S>::collect_incorrect_usages"
+RUSTSEC-2022-0038,juniper,over_per_advisory_cap,juniper/src/validation/rules/no_unused_variables.rs::NoUnusedVariables<'a>::find_used_vars
+RUSTSEC-2022-0038,juniper,over_per_advisory_cap,juniper/src/validation/rules/no_undefined_variables.rs::NoUndefinedVariables<'a>::find_undef_vars
+RUSTSEC-2022-0038,juniper,over_per_advisory_cap,juniper/src/validation/rules/no_fragment_cycles.rs::NoFragmentCycles<'a>::exit_document
+RUSTSEC-2022-0013,regex,function_missing_at_one_revision,src/compile.rs::Compiler::c_empty
+RUSTSEC-2022-0012,arrow2,no_usable_function_pairs,https://github.com/jorgecarleitao/arrow2/pull/882/files
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/lib.rs::DashMap<K, V, S>::_get_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/lib.rs::DashMap<K, V, S>::_remove_if_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/lib.rs::DashMap<K, V, S>::_try_entry"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/lib.rs::DashMap<K, V, S>::_try_get"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/lib.rs::DashMap<K, V, S>::_try_get_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::replace_entry"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMulti<'a, K, V, S>::new"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMutMulti<'a, K, V, S>::new"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::RefMut<'a, K, V, S>::new"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::new"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::remove_entry"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMulti<'a, K, V, S>::key"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMulti<'a, K, V, S>::pair"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMulti<'a, K, V, S>::value"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMutMulti<'a, K, V, S>::key"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMutMulti<'a, K, V, S>::pair"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMutMulti<'a, K, V, S>::pair_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::Ref<'a, K, V, S>::key"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::Ref<'a, K, V, S>::pair"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::Ref<'a, K, V, S>::value"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::RefMut<'a, K, V, S>::key"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::RefMut<'a, K, V, S>::pair"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::RefMut<'a, K, V, S>::pair_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/iter.rs::Iter<'a, K, V, S, M>::next"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::get"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::get_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::insert"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::into_ref"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::key"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::OccupiedEntry<'a, K, V, S>::remove"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/entry.rs::VacantEntry<'a, K, V, S>::new"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMutMulti<'a, K, V, S>::value"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/multiple.rs::RefMutMulti<'a, K, V, S>::value_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::Ref<'a, K, V, S>::new"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::RefMut<'a, K, V, S>::value"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/mapref/one.rs::RefMut<'a, K, V, S>::value_mut"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/rayon/map.rs::Iter<'a, K, V, S>::drive_unindexed"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/rayon/map.rs::IterMut<'a, K, V, S>::drive_unindexed"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/setref/multiple.rs::RefMulti<'a, K, S>::key"
+RUSTSEC-2022-0002,dashmap,over_per_advisory_cap,"src/setref/one.rs::Ref<'a, K, S>::key"
+RUSTSEC-2021-0128,rusqlite,identical_after_normalization,libsqlite3-sys/build.rs::build_bundled::main
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/collation.rs::InnerConnection::create_collation
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/hooks.rs::Connection::commit_hook
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/hooks.rs::Connection::rollback_hook
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/hooks.rs::Connection::update_hook
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/hooks.rs::InnerConnection::commit_hook
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/hooks.rs::InnerConnection::rollback_hook
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/hooks.rs::InnerConnection::update_hook
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/functions.rs::Connection::create_aggregate_function
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/functions.rs::Connection::create_window_function
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/functions.rs::InnerConnection::create_aggregate_function
+RUSTSEC-2021-0128,rusqlite,over_per_advisory_cap,src/functions.rs::InnerConnection::create_window_function
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,"rust/flatbuffers/src/array.rs::Array<'a, T, N>::into"
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/array.rs::[T::Inner; N]::from
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/array.rs::array_init
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::create_vector_direct
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::create_vector_of_strings
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::grow_owned_buf
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::reset
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/endian_scalar.rs::bool::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/endian_scalar.rs::bool::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/endian_scalar.rs::byte_swap_f32
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/endian_scalar.rs::byte_swap_f64
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/get_root.rs::root_with_opts
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/get_root.rs::size_prefixed_root_with_opts
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/push.rs::&'a T::alignment
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/push.rs::&'a T::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/push.rs::&'a T::size
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/vector.rs::&'a [T]::follow
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/vector.rs::&'a [u8]::follow
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,"rust/flatbuffers/src/vector.rs::Vector<'a, T>::bytes"
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,"rust/flatbuffers/src/vector.rs::Vector<'a, T>::is_empty"
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,"rust/flatbuffers/src/vector.rs::Vector<'a, T>::len"
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,"rust/flatbuffers/src/vector.rs::Vector<'a, T>::safe_slice"
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,rust/flatbuffers/src/vector.rs::follow_slice_helper
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/verifier.rs::trace_field
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/vtable.rs::VTable<'a>::get_field
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/vtable.rs::VTable<'a>::num_bytes
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/vtable.rs::VTable<'a>::num_fields
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/vtable.rs::VTable<'a>::object_inline_num_bytes
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,rust/flatbuffers/src/vtable_writer.rs::VTableWriter<'a>::clear
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,samples/rust_generated/my_game/sample/monster_generated.rs::get_root_as_monster
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,samples/rust_generated/my_game/sample/monster_generated.rs::get_size_prefixed_root_as_monster
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,samples/rust_generated/my_game/sample/vec_3_generated.rs::&'b Vec3::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/arrays_test/my_game/example/array_struct_generated.rs::&'b ArrayStruct::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::set_d
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/arrays_test/my_game/example/array_table_generated.rs::get_root_as_array_table
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/arrays_test/my_game/example/array_table_generated.rs::get_size_prefixed_root_as_array_table
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/arrays_test/my_game/example/nested_struct_generated.rs::&'b NestedStruct::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::set_c
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/include_test1/my_game/other_name_space/unused_generated.rs::&'b Unused::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/include_test2/my_game/other_name_space/unused_generated.rs::&'b Unused::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/example/ability_generated.rs::&'b Ability::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/example/monster_generated.rs::get_root_as_monster
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/example/monster_generated.rs::get_size_prefixed_root_as_monster
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/example/struct_of_structs_generated.rs::&'b StructOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test/my_game/example/struct_of_structs_generated.rs::StructOfStructs::a
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test/my_game/example/struct_of_structs_generated.rs::StructOfStructs::b
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test/my_game/example/struct_of_structs_generated.rs::StructOfStructs::c
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/example/struct_of_structs_of_structs_generated.rs::&'b StructOfStructsOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test/my_game/example/struct_of_structs_of_structs_generated.rs::StructOfStructsOfStructs::a
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/example/test_generated.rs::&'b Test::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/example/vec_3_generated.rs::&'b Vec3::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::test3
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test/my_game/other_name_space/unused_generated.rs::&'b Unused::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/example/ability_generated.rs::&'b Ability::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/example/monster_generated.rs::get_root_as_monster
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/example/monster_generated.rs::get_size_prefixed_root_as_monster
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/example/struct_of_structs_generated.rs::&'b StructOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test_serialize/my_game/example/struct_of_structs_generated.rs::StructOfStructs::a
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test_serialize/my_game/example/struct_of_structs_generated.rs::StructOfStructs::b
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test_serialize/my_game/example/struct_of_structs_generated.rs::StructOfStructs::c
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/example/struct_of_structs_of_structs_generated.rs::&'b StructOfStructsOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test_serialize/my_game/example/struct_of_structs_of_structs_generated.rs::StructOfStructsOfStructs::a
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/example/test_generated.rs::&'b Test::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::&'b Vec3::push
+RUSTSEC-2021-0122,flatbuffers,identical_after_normalization,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::test3
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/monster_test_serialize/my_game/other_name_space/unused_generated.rs::&'b Unused::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::&'b StructInNestedNS::push
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::get_root_as_scalar_stuff
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::get_size_prefixed_root_as_scalar_stuff
+RUSTSEC-2021-0122,flatbuffers,function_missing_at_one_revision,tests/private_annotation_test/object_generated.rs::&'b Object::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/endian_scalar.rs::f32::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/endian_scalar.rs::f32::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/endian_scalar.rs::f64::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/endian_scalar.rs::f64::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/array.rs::Array<'a, T, N>::new"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/vector.rs::Vector<'a, T>::new"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/unused_generated.rs::Unused::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/unused_generated.rs::Unused::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/ability_generated.rs::Ability::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/struct_of_structs_generated.rs::StructOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/struct_of_structs_of_structs_generated.rs::StructOfStructsOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_generated.rs::Test::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/unused_generated.rs::Unused::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/ability_generated.rs::Ability::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/struct_of_structs_generated.rs::StructOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/struct_of_structs_of_structs_generated.rs::StructOfStructsOfStructs::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_generated.rs::Test::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/unused_generated.rs::Unused::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::StructInNestedNS::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/object_generated.rs::Object::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::create_vector
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::create_vector_from_iter
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::WIPOffset<T>::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/color_generated.rs::Color::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/long_enum_generated.rs::LongEnum::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::unpack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/color_generated.rs::Color::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/long_enum_generated.rs::LongEnum::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::unpack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/rust_usage_test/bin/flatbuffers_alloc_check.rs::main
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::WIPOffset<T>::new
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/color_generated.rs::Color::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/equipment_generated.rs::Equipment::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::x
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::y
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::z
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/sample_binary.rs::main
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::c
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::e
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/test_enum_generated.rs::TestEnum::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/from_include_generated.rs::FromInclude::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/unused_generated.rs::Unused::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/from_include_generated.rs::FromInclude::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/unused_generated.rs::Unused::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/abc_generated.rs::ABC::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_union_generated.rs::KeywordsInUnion::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/public_generated.rs::public::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/ability_generated.rs::Ability::distance
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/ability_generated.rs::Ability::id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_generated.rs::Any::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/race_generated.rs::Race::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_generated.rs::Test::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_generated.rs::Test::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::test1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::test2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::x
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::y
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::z
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/from_include_generated.rs::FromInclude::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/unused_generated.rs::Unused::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/ability_generated.rs::Ability::distance
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/ability_generated.rs::Ability::id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_generated.rs::Any::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/race_generated.rs::Race::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_generated.rs::Test::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_generated.rs::Test::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::test1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::test2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::x
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::y
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::z
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/from_include_generated.rs::FromInclude::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/unused_generated.rs::Unused::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/abc_generated.rs::ABC::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/enum_in_nested_ns_generated.rs::EnumInNestedNS::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::StructInNestedNS::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::StructInNestedNS::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/union_in_nested_ns_generated.rs::UnionInNestedNS::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/optional_byte_generated.rs::OptionalByte::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/ab_generated.rs::AB::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/any_generated.rs::Any::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/object_generated.rs::Object::value
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/endian_scalar.rs::emplace_scalar
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/endian_scalar.rs::read_scalar
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vector.rs::&'a str::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vtable.rs::VTable<'a>::get
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/color_generated.rs::Color::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/equipment_generated.rs::Equipment::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::set_x
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::set_y
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::set_z
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::set_c
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::set_e
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::set_b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/test_enum_generated.rs::TestEnum::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/from_include_generated.rs::FromInclude::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/unused_generated.rs::Unused::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/from_include_generated.rs::FromInclude::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/unused_generated.rs::Unused::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/abc_generated.rs::ABC::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_union_generated.rs::KeywordsInUnion::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/public_generated.rs::public::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/ability_generated.rs::Ability::set_distance
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/ability_generated.rs::Ability::set_id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_generated.rs::Any::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/color_generated.rs::Color::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/long_enum_generated.rs::LongEnum::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/race_generated.rs::Race::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_generated.rs::Test::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_generated.rs::Test::set_b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::set_test1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::set_test2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::set_x
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::set_y
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::set_z
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/from_include_generated.rs::FromInclude::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/unused_generated.rs::Unused::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/ability_generated.rs::Ability::set_distance
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/ability_generated.rs::Ability::set_id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_generated.rs::Any::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/color_generated.rs::Color::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/long_enum_generated.rs::LongEnum::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/race_generated.rs::Race::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_generated.rs::Test::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_generated.rs::Test::set_b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::set_test1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::set_test2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::set_x
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::set_y
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::set_z
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/from_include_generated.rs::FromInclude::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/unused_generated.rs::Unused::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/abc_generated.rs::ABC::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/enum_in_nested_ns_generated.rs::EnumInNestedNS::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::StructInNestedNS::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::StructInNestedNS::set_b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/union_in_nested_ns_generated.rs::UnionInNestedNS::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/optional_byte_generated.rs::OptionalByte::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/ab_generated.rs::AB::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/any_generated.rs::Any::to_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/object_generated.rs::Object::set_value
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/follow.rs::FollowStart<T>::new
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::BackwardsSOffset<T>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::BackwardsSOffset<T>::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::ForwardsUOffset<T>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::ForwardsUOffset<T>::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::ForwardsVOffset<T>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::ForwardsVOffset<T>::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::bool::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/table.rs::Table<'a>::new
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/table.rs::Table<'a>::vtable
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/table.rs::buffer_has_identifier
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/vector.rs::Vector<'a, T>::get"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vector.rs::follow_cast_ref
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/verifier.rs::Verifier<'opts, 'buf>::deref_soffset"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vtable.rs::VTable<'a>::init
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vtable_writer.rs::VTableWriter<'a>::write_field_offset
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vtable_writer.rs::VTableWriter<'a>::write_object_inline_size
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vtable_writer.rs::VTableWriter<'a>::write_vtable_byte_length
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/color_generated.rs::Color::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/color_generated.rs::Color::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/equipment_generated.rs::Equipment::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/equipment_generated.rs::Equipment::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::inventory
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::path
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/weapon_generated.rs::Weapon<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_table_generated.rs::ArrayTable<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/test_enum_generated.rs::TestEnum::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/test_enum_generated.rs::TestEnum::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/from_include_generated.rs::FromInclude::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/from_include_generated.rs::FromInclude::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/table_b_generated.rs::TableB<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/table_a_generated.rs::TableA<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/from_include_generated.rs::FromInclude::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/from_include_generated.rs::FromInclude::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/table_b_generated.rs::TableB<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/table_a_generated.rs::TableA<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/abc_generated.rs::ABC::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/abc_generated.rs::ABC::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_table_generated.rs::KeywordsInTable<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_union_generated.rs::KeywordsInUnion::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_union_generated.rs::KeywordsInUnion::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/public_generated.rs::public::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/public_generated.rs::public::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_generated.rs::Any::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_generated.rs::Any::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/color_generated.rs::Color::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/color_generated.rs::Color::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/long_enum_generated.rs::LongEnum::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/long_enum_generated.rs::LongEnum::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::flex
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::inventory
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::test4
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::test5
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testarrayofbools
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testarrayofsortedstruct
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testnestedflatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testrequirednestedflatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::MonsterT::pack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/race_generated.rs::Race::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/race_generated.rs::Race::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/referrable_generated.rs::Referrable<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/stat_generated.rs::Stat<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_simple_table_with_enum_generated.rs::TestSimpleTableWithEnum<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::v8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example_2/monster_generated.rs::Monster<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/in_parent_namespace_generated.rs::InParentNamespace<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/from_include_generated.rs::FromInclude::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/from_include_generated.rs::FromInclude::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/table_b_generated.rs::TableB<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/table_a_generated.rs::TableA<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_ambiguous_aliases_generated.rs::AnyAmbiguousAliases::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_generated.rs::Any::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_generated.rs::Any::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/any_unique_aliases_generated.rs::AnyUniqueAliases::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/color_generated.rs::Color::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/color_generated.rs::Color::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/long_enum_generated.rs::LongEnum::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/long_enum_generated.rs::LongEnum::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::flex
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::inventory
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::test4
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::test5
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testarrayofbools
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testarrayofsortedstruct
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testnestedflatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testrequirednestedflatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::MonsterT::pack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/race_generated.rs::Race::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/race_generated.rs::Race::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/referrable_generated.rs::Referrable<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/stat_generated.rs::Stat<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_simple_table_with_enum_generated.rs::TestSimpleTableWithEnum<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::v8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example_2/monster_generated.rs::Monster<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/in_parent_namespace_generated.rs::InParentNamespace<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/from_include_generated.rs::FromInclude::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/from_include_generated.rs::FromInclude::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/table_b_generated.rs::TableB<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/table_a_generated.rs::TableA<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/abc_generated.rs::ABC::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/abc_generated.rs::ABC::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::bools
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/enum_in_nested_ns_generated.rs::EnumInNestedNS::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/enum_in_nested_ns_generated.rs::EnumInNestedNS::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/table_in_nested_ns_generated.rs::TableInNestedNS<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/union_in_nested_ns_generated.rs::UnionInNestedNS::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/union_in_nested_ns_generated.rs::UnionInNestedNS::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/second_table_in_a_generated.rs::SecondTableInA<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_c/table_in_c_generated.rs::TableInC<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/optional_byte_generated.rs::OptionalByte::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/optional_byte_generated.rs::OptionalByte::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/ab_generated.rs::AB::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/ab_generated.rs::AB::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/annotations_generated.rs::Annotations<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/any_generated.rs::Any::from_little_endian
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/any_generated.rs::Any::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/game_generated.rs::Game<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/rust_serialize_test/src/main.rs::create_serialized_example_with_generated_code
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/array.rs::Array<'a, T, N>::follow"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/array.rs::Array<'a, T, N>::get"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/array.rs::Array<'a, T, N>::iter"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::push
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/builder.rs::FlatBufferBuilder<'fbb>::required
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/follow.rs::FollowStart<T>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/follow.rs::FollowStart<T>::self_follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::FileIdentifier::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::SkipFileIdentifier<T>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::SkipRootOffset<T>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/primitives.rs::SkipSizePrefix<T>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/push.rs::PushAlignment::new
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/table.rs::Table<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/table.rs::Table<'a>::get
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/vector.rs::Vector<'a, T>::follow"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/vector.rs::VectorIter<'a, T>::from_slice"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/vector.rs::VectorIter<'a, T>::next"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/vector.rs::VectorIter<'a, T>::next_back"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,"rust/flatbuffers/src/verifier.rs::TableVerifier<'ver, 'opts, 'buf>::visit_union"
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,rust/flatbuffers/src/vtable.rs::VTable<'a>::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::color
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::equipped
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::equipped_as_weapon
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::equipped_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::hp
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::mana
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::name
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::pos
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::unpack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/monster_generated.rs::Monster<'a>::weapons
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::&'a Vec3::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/vec_3_generated.rs::Vec3::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/weapon_generated.rs::Weapon<'a>::damage
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/weapon_generated.rs::Weapon<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,samples/rust_generated/my_game/sample/weapon_generated.rs::Weapon<'a>::name
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::&'a ArrayStruct::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::d
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::f
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::set_b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_struct_generated.rs::ArrayStruct::set_f
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_table_generated.rs::ArrayTable<'a>::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/array_table_generated.rs::ArrayTable<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::&'a NestedStruct::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::c
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::d
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::set_a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/arrays_test/my_game/example/nested_struct_generated.rs::NestedStruct::set_d
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/table_b_generated.rs::TableB<'a>::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/table_b_generated.rs::TableB<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/unused_generated.rs::&'a Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/my_game/other_name_space/unused_generated.rs::Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/table_a_generated.rs::TableA<'a>::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test1/table_a_generated.rs::TableA<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/table_b_generated.rs::TableB<'a>::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/table_b_generated.rs::TableB<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/unused_generated.rs::&'a Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/my_game/other_name_space/unused_generated.rs::Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/table_a_generated.rs::TableA<'a>::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/include_test2/table_a_generated.rs::TableA<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_table_generated.rs::KeywordsInTable<'a>::default
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_table_generated.rs::KeywordsInTable<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_table_generated.rs::KeywordsInTable<'a>::is
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_table_generated.rs::KeywordsInTable<'a>::private
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/keyword_test/keyword_test/keywords_in_table_generated.rs::KeywordsInTable<'a>::type_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/ability_generated.rs::&'a Ability::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/ability_generated.rs::Ability::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_as_m1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_as_m2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_as_m3
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_unique
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_unique_as_m
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_unique_as_m2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_unique_as_ts
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::any_unique_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::co_owning_reference
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::color
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::enemy
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::hp
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::long_enum_non_enum_default
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::long_enum_normal_default
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::mana
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::name
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::native_inline
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::non_owning_reference
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::parent_namespace_test
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::pos
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::scalar_key_sorted_tables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::signed_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::single_weak_reference
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::test
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::test_as_monster
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::test_as_my_game_example_2_monster
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::test_as_test_simple_table_with_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::test_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testarrayofstring
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testarrayofstring2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testarrayoftables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testbool
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testempty
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testf
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testf2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testf3
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashs32_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashs32_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashs64_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashs64_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashu32_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashu32_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashu64_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testhashu64_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testnestedflatbuffer_nested_flatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::testrequirednestedflatbuffer_nested_flatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_co_owning_references
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_doubles
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_enums
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_longs
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_non_owning_references
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_referrables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_strong_referrables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/monster_generated.rs::Monster<'a>::vector_of_weak_references
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/referrable_generated.rs::Referrable<'a>::id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/referrable_generated.rs::Referrable<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/stat_generated.rs::Stat<'a>::count
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/stat_generated.rs::Stat<'a>::id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/stat_generated.rs::Stat<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/stat_generated.rs::Stat<'a>::val
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/struct_of_structs_generated.rs::&'a StructOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/struct_of_structs_generated.rs::StructOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/struct_of_structs_of_structs_generated.rs::&'a StructOfStructsOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/struct_of_structs_of_structs_generated.rs::StructOfStructsOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_generated.rs::&'a Test::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_generated.rs::Test::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_simple_table_with_enum_generated.rs::TestSimpleTableWithEnum<'a>::color
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/test_simple_table_with_enum_generated.rs::TestSimpleTableWithEnum<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::f32_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::f64_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i16_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i32_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i64_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i8_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u16_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u32_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u64_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u8_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::unpack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::vf64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::&'a Vec3::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example/vec_3_generated.rs::Vec3::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/example_2/monster_generated.rs::Monster<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/in_parent_namespace_generated.rs::InParentNamespace<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/table_b_generated.rs::TableB<'a>::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/table_b_generated.rs::TableB<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/unused_generated.rs::&'a Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/my_game/other_name_space/unused_generated.rs::Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/table_a_generated.rs::TableA<'a>::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test/table_a_generated.rs::TableA<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/ability_generated.rs::&'a Ability::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/ability_generated.rs::Ability::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_as_m1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_as_m2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_as_m3
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_ambiguous_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_unique
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_unique_as_m
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_unique_as_m2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_unique_as_ts
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::any_unique_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::co_owning_reference
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::color
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::enemy
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::hp
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::long_enum_non_enum_default
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::long_enum_normal_default
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::mana
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::name
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::native_inline
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::non_owning_reference
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::parent_namespace_test
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::pos
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::scalar_key_sorted_tables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::signed_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::single_weak_reference
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::test
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::test_as_monster
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::test_as_my_game_example_2_monster
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::test_as_test_simple_table_with_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::test_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testarrayofstring
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testarrayofstring2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testarrayoftables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testbool
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testempty
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testf
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testf2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testf3
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashs32_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashs32_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashs64_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashs64_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashu32_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashu32_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashu64_fnv1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testhashu64_fnv1a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testnestedflatbuffer_nested_flatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::testrequirednestedflatbuffer_nested_flatbuffer
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_co_owning_references
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_doubles
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_enums
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_longs
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_non_owning_references
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_referrables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_strong_referrables
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/monster_generated.rs::Monster<'a>::vector_of_weak_references
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/referrable_generated.rs::Referrable<'a>::id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/referrable_generated.rs::Referrable<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/stat_generated.rs::Stat<'a>::count
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/stat_generated.rs::Stat<'a>::id
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/stat_generated.rs::Stat<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/stat_generated.rs::Stat<'a>::val
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/struct_of_structs_generated.rs::&'a StructOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/struct_of_structs_generated.rs::StructOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/struct_of_structs_of_structs_generated.rs::&'a StructOfStructsOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/struct_of_structs_of_structs_generated.rs::StructOfStructsOfStructs::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_generated.rs::&'a Test::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_generated.rs::Test::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_simple_table_with_enum_generated.rs::TestSimpleTableWithEnum<'a>::color
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/test_simple_table_with_enum_generated.rs::TestSimpleTableWithEnum<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::f32_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::f64_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i16_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i32_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i64_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::i8_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u16_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u32_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u64_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::u8_
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::unpack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/type_aliases_generated.rs::TypeAliases<'a>::vf64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::&'a Vec3::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example/vec_3_generated.rs::Vec3::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/example_2/monster_generated.rs::Monster<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/in_parent_namespace_generated.rs::InParentNamespace<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/table_b_generated.rs::TableB<'a>::a
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/table_b_generated.rs::TableB<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/unused_generated.rs::&'a Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/my_game/other_name_space/unused_generated.rs::Unused::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/table_a_generated.rs::TableA<'a>::b
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/monster_test_serialize/table_a_generated.rs::TableA<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::abcs
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::empty_string
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::floats
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::ints
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::some_string
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/more_defaults/more_defaults_generated.rs::MoreDefaults<'a>::unpack
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::&'a StructInNestedNS::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/struct_in_nested_ns_generated.rs::StructInNestedNS::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/table_in_nested_ns_generated.rs::TableInNestedNS<'a>::foo
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/namespace_b/table_in_nested_ns_generated.rs::TableInNestedNS<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/second_table_in_a_generated.rs::SecondTableInA<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/second_table_in_a_generated.rs::SecondTableInA<'a>::refer_to_c
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::foo_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::foo_struct
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::foo_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::foo_union
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::foo_union_as_table_in_nested_ns
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::foo_union_type
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_a/table_in_first_ns_generated.rs::TableInFirstNS<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_c/table_in_c_generated.rs::TableInC<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_c/table_in_c_generated.rs::TableInC<'a>::refer_to_a1
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/namespace_test/namespace_c/table_in_c_generated.rs::TableInC<'a>::refer_to_a2
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_bool
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_f32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_f64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_i16
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_i32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_i64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_i8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_u16
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_u32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_u64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::default_u8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_bool
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_f32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_f64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_i16
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_i32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_i64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_i8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_u16
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_u32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_u64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::just_u8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_bool
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_enum
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_f32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_f64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_i16
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_i32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_i64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_i8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_u16
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_u32
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_u64
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/optional_scalars/optional_scalars/scalar_stuff_generated.rs::ScalarStuff<'a>::maybe_u8
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/annotations_generated.rs::Annotations<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/annotations_generated.rs::Annotations<'a>::value
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/game_generated.rs::Game<'a>::init_from_table
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/game_generated.rs::Game<'a>::value
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/object_generated.rs::&'a Object::follow
+RUSTSEC-2021-0122,flatbuffers,over_per_advisory_cap,tests/private_annotation_test/object_generated.rs::Object::follow
+RUSTSEC-2021-0118,arrow,unsupported_link,no_commit_or_pr_in_link
+RUSTSEC-2021-0114,nanorand,function_missing_at_one_revision,nanorand/src/tls.rs::TlsWyRand::deref
+RUSTSEC-2021-0114,nanorand,function_missing_at_one_revision,nanorand/src/tls.rs::TlsWyRand::deref_mut
+RUSTSEC-2021-0114,nanorand,function_missing_at_one_revision,nanorand/src/tls.rs::TlsWyRand::rand
+RUSTSEC-2021-0114,nanorand,function_missing_at_one_revision,nanorand/src/tls.rs::TlsWyRand::rand_with_seed
+RUSTSEC-2021-0114,nanorand,function_missing_at_one_revision,nanorand/src/tls.rs::TlsWyRand::reseed
+RUSTSEC-2021-0114,nanorand,no_usable_function_pairs,https://github.com/Absolucy/nanorand-rs/commit/340f893dbc9db3e43c6315b05eff4b0b150220d2
+RUSTSEC-2021-0113,metrics-util,no_usable_function_pairs,https://github.com/metrics-rs/metrics/pull/191/files
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/runtime/src/externref.rs::VMExternRefActivationsTable::bump_capacity_remaining
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/runtime/src/externref.rs::VMExternRefActivationsTable::insert_slow_without_gc
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/runtime/src/externref.rs::VMExternRefActivationsTable::insert_without_gc
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/runtime/src/externref.rs::VMExternRefActivationsTable::set_gc_okay
+RUSTSEC-2021-0110,wasmtime,identical_after_normalization,crates/runtime/src/externref.rs::VMExternRefActivationsTable::set_stack_canary
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/types/src/lib.rs::WasmFuncType::externref_params_count
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/types/src/lib.rs::WasmFuncType::externref_returns_count
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/types/src/lib.rs::WasmFuncType::new
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/types/src/lib.rs::WasmFuncType::params
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/types/src/lib.rs::WasmFuncType::returns
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/func/typed.rs::Option<ExternRef>::is_externref
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/func/typed.rs::Option<Func>::is_externref
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/func/typed.rs::T::externrefs_count
+RUSTSEC-2021-0110,wasmtime,identical_after_normalization,crates/wasmtime/src/func/typed.rs::T::into_abi
+RUSTSEC-2021-0110,wasmtime,identical_after_normalization,crates/wasmtime/src/func/typed.rs::T::typecheck
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/store.rs::AutoAssertNoGc<T>::deref
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/store.rs::AutoAssertNoGc<T>::deref_mut
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/store.rs::AutoAssertNoGc<T>::drop
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/store.rs::AutoAssertNoGc<T>::new
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/store.rs::StoreOpaque::insert_vmexternref
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/store.rs::StoreOpaque::insert_vmexternref_without_gc
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/values.rs::Val::write_value_to
+RUSTSEC-2021-0110,wasmtime,function_missing_at_one_revision,crates/wasmtime/src/values.rs::Val::write_value_without_gc
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/fuzzing/src/generators/table_ops.rs::TableOp::insert
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,"crates/wasmtime/src/func/typed.rs::TypedFunc<Params, Results>::_call"
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/wasmtime/src/types.rs::FuncType::new
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/cranelift/src/compiler.rs::Compiler::wasm_to_host_trampoline
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,cranelift/wasm/src/environ/dummy.rs::DummyEnvironment::declare_type_func
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/cranelift/src/lib.rs::push_types
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/wasmtime/src/func.rs::Func::call_impl
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/wasmtime/src/func.rs::Func::invoke
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/wasmtime/src/func.rs::Func::write_params
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/environ/src/module_environ.rs::ModuleEnvironment<'data>::translate_payload
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/runtime/src/externref.rs::VMExternRefActivationsTable::insert_with_gc
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/runtime/src/externref.rs::VMExternRefActivationsTable::new
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/runtime/src/externref.rs::gc
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/wasmtime/src/func/typed.rs::Option<ExternRef>::into_abi
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/wasmtime/src/types.rs::FuncType::params
+RUSTSEC-2021-0110,wasmtime,over_per_advisory_cap,crates/wasmtime/src/types.rs::FuncType::results
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_body
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_body_cr
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_body_lf
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_end_cr
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_end_lf
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_extension
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_size
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_size_lf
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::read_size_lws
+RUSTSEC-2021-0081,actix-http,function_missing_at_one_revision,actix-http/src/h1/decoder.rs::ChunkedState::step
+RUSTSEC-2021-0081,actix-http,identical_after_normalization,actix-http/src/h1/decoder.rs::PayloadDecoder::decode
+RUSTSEC-2021-0080,tar,function_missing_at_one_revision,src/entry.rs::EntryFields<'a>::ensure_dir_created
+RUSTSEC-2021-0075,ark-r1cs-std,function_missing_at_one_revision,src/fields/fp/mod.rs::AllocatedFp<F>::addmany
+RUSTSEC-2021-0075,ark-r1cs-std,function_missing_at_one_revision,src/fields/fp/mod.rs::FpVar<F>::sum
+RUSTSEC-2021-0074,ammonia,function_missing_at_one_revision,src/lib.rs::Builder<'a>::check_expected_namespace
+RUSTSEC-2021-0074,ammonia,function_missing_at_one_revision,src/lib.rs::is_mathml_tag
+RUSTSEC-2021-0074,ammonia,function_missing_at_one_revision,src/lib.rs::is_svg_tag
+RUSTSEC-2021-0073,prost-types,function_missing_at_one_revision,prost-types/src/lib.rs::TimestampOutOfSystemRangeError::fmt
+RUSTSEC-2021-0073,prost-types,function_missing_at_one_revision,prost-types/src/lib.rs::std::time::SystemTime::from
+RUSTSEC-2021-0073,prost-types,function_missing_at_one_revision,prost-types/src/lib.rs::std::time::SystemTime::try_from
+RUSTSEC-2021-0072,tokio,function_missing_at_one_revision,"tokio/src/runtime/task/harness.rs::Harness<T, S>::remote_abort"
+RUSTSEC-2021-0072,tokio,function_missing_at_one_revision,tokio/src/runtime/task/raw.rs::RawTask::remote_abort
+RUSTSEC-2021-0072,tokio,identical_after_normalization,tokio/src/runtime/task/raw.rs::RawTask::shutdown
+RUSTSEC-2021-0072,tokio,function_missing_at_one_revision,tokio/src/runtime/task/raw.rs::remote_abort
+RUSTSEC-2021-0072,tokio,function_missing_at_one_revision,tokio/src/runtime/task/state.rs::State::transition_to_notified_and_cancel
+RUSTSEC-2021-0070,nalgebra,function_missing_at_one_revision,"src/base/vec_storage.rs::VecStorage<T, R, C>::deserialize"
+RUSTSEC-2021-0070,nalgebra,function_missing_at_one_revision,"src/base/vec_storage.rs::VecStorage<T, R, C>::serialize"
+RUSTSEC-2021-0070,nalgebra,no_usable_function_pairs,https://github.com/dimforge/nalgebra/pull/889/files
+RUSTSEC-2021-0050,reorder,over_per_advisory_cap,src/lib.rs::swap_index
+RUSTSEC-2021-0038,fltk,function_missing_at_one_revision,fltk/src/app.rs::delay
+RUSTSEC-2021-0036,internment,rev_resolution_failed,"git fetch -q --depth=2 -> remote: Repository not found.
+fatal: repository 'https://github.com/droundy/internment.git/' not found"
+RUSTSEC-2021-0033,stack_dst,rev_resolution_failed,git fetch -q --depth=2 -> fatal: couldn't find remote ref 2a4d538
+RUSTSEC-2021-0032,byte_struct,no_usable_function_pairs,https://github.com/wwylele/byte-struct-rs/commit/a535678377de12bc6bc22620c5f59bcc1369f76f
+RUSTSEC-2021-0030,scratchpad,rev_resolution_failed,git fetch -q --depth=2 -> fatal: couldn't find remote ref 891561bea
+RUSTSEC-2021-0027,bam,unsupported_link,gitlab_host
+RUSTSEC-2021-0026,comrak,no_usable_function_pairs,https://github.com/kivikakk/comrak/commit/b3efbb6e427bcd33bb14db45753ad4fd98e0f5bf
+RUSTSEC-2021-0022,yottadb,unsupported_link,gitlab_host
+RUSTSEC-2021-0018,qwutils,rev_resolution_failed,git fetch -q --depth=2 -> fatal: couldn't find remote ref 20cb73d
+RUSTSEC-2021-0011,fil-ocl,no_usable_function_pairs,https://github.com/cogciprocate/ocl/commit/6b3a84803060a4a824805de954c8d4140543b71a
+RUSTSEC-2021-0010,containers,function_missing_at_one_revision,src/util/mod.rs::AbortOnDrop::drop
+RUSTSEC-2021-0010,containers,function_missing_at_one_revision,src/util/mod.rs::abort_on_unwind
+RUSTSEC-2021-0010,containers,identical_after_normalization,src/util/mod.rs::ptr_diff
+RUSTSEC-2021-0007,av-data,function_missing_at_one_revision,data/src/frame.rs::Frame::copy_from_raw_parts
+RUSTSEC-2021-0007,av-data,identical_after_normalization,data/src/frame.rs::Frame::copy_from_slice
+RUSTSEC-2021-0007,av-data,no_usable_function_pairs,https://github.com/rust-av/rust-av/commit/fb7bf1879b1b12fd30182d97e5f200e7d013f91d

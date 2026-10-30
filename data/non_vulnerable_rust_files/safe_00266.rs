@@ -1,0 +1,26 @@
+// REAL FIXED CODE
+// RustSec ID: RUSTSEC-2022-0001 (FIXED)
+// Crate: lmdb
+// Type: unknown (FIXED)
+// Extraction Method: repo_search
+// GitHub Repo: danburkert/lmdb-rs
+// Commit: ef25044
+// File: lmdb-sys/build.rs
+
+
+lmdb.push("liblmdb");
+ 
+     if !pkg_config::find_library("liblmdb").is_ok() {
+        let target = env::var("TARGET").expect("No TARGET found");
+        let mut build = cc::Build::new();
+        if target.contains("android") {
+            build.define("ANDROID", "1");
+        }
+        build
+            .file(lmdb.join("mdb.c"))
+            .file(lmdb.join("midl.c"))
+            // https://github.com/LMDB/lmdb/blob/LMDB_0.9.21/libraries/liblmdb/Makefile#L25
+            .opt_level(2)
+            .compile("liblmdb.a")
+     }
+ }

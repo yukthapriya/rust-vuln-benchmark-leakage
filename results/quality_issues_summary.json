@@ -1,0 +1,12 @@
+{
+  "total_original": 1074,
+  "cross_label_exact_duplicates": 184,
+  "same_class_redundant_duplicates": 188,
+  "trivial_files_under_20_lines": 156,
+  "rustsec_pairs_identical_content": 90,
+  "dirty_train": 858,
+  "dirty_test": 216,
+  "clean_after_removal": 653,
+  "clean_train": 522,
+  "clean_test": 131
+}

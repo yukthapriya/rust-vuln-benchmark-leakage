@@ -1,0 +1,3761 @@
+[
+  {
+    "rustsec_id": "RUSTSEC-2016-0001",
+    "method": "repo_search",
+    "body_sim": 0.6473108043788672,
+    "vuln_file": "vulnerable_rust_files/vuln_00001.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00001.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2016-0002",
+    "method": "repo_search",
+    "body_sim": 0.7023319615912208,
+    "vuln_file": "vulnerable_rust_files/vuln_00002.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00002.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2016-0003",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00003.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00003.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2016-0004",
+    "method": "repo_search",
+    "body_sim": 0.8993288590604027,
+    "vuln_file": "vulnerable_rust_files/vuln_00004.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00004.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2016-0005",
+    "method": "repo_search",
+    "body_sim": 0.8953488372093024,
+    "vuln_file": "vulnerable_rust_files/vuln_00005.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00005.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2016-0006",
+    "method": "repo_search",
+    "body_sim": 0.3230769230769231,
+    "vuln_file": "vulnerable_rust_files/vuln_00006.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00006.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2017-0001",
+    "method": "repo_search",
+    "body_sim": 0.8833087149187593,
+    "vuln_file": "vulnerable_rust_files/vuln_00007.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00007.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2017-0002",
+    "method": "crate_versions",
+    "body_sim": 0.9951456310679612,
+    "vuln_file": "vulnerable_rust_files/vuln_00008.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00008.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2017-0004",
+    "method": "commit_diff",
+    "body_sim": 0.8417551085062569,
+    "vuln_file": "vulnerable_rust_files/vuln_00009.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00009.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2017-0006",
+    "method": "repo_search",
+    "body_sim": 0.9639344262295082,
+    "vuln_file": "vulnerable_rust_files/vuln_00010.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00010.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2017-0008",
+    "method": "repo_search",
+    "body_sim": 0.9048543689320389,
+    "vuln_file": "vulnerable_rust_files/vuln_00011.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00011.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0003",
+    "method": "repo_search",
+    "body_sim": 0.7211538461538461,
+    "vuln_file": "vulnerable_rust_files/vuln_00012.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00012.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0004",
+    "method": "commit_diff",
+    "body_sim": 0.8486956521739131,
+    "vuln_file": "vulnerable_rust_files/vuln_00013.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00013.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0005",
+    "method": "crate_versions",
+    "body_sim": 0.5389696169088507,
+    "vuln_file": "vulnerable_rust_files/vuln_00014.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00014.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0008",
+    "method": "repo_search",
+    "body_sim": 0.9057377049180327,
+    "vuln_file": "vulnerable_rust_files/vuln_00015.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00015.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0009",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00016.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00016.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0010",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00017.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00017.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0012",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00018.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00018.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0013",
+    "method": "crate_versions",
+    "body_sim": 0.5173420956553487,
+    "vuln_file": "vulnerable_rust_files/vuln_00019.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00019.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0015",
+    "method": "repo_search",
+    "body_sim": 0.9,
+    "vuln_file": "vulnerable_rust_files/vuln_00020.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00020.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0018",
+    "method": "repo_search",
+    "body_sim": 0.7211538461538461,
+    "vuln_file": "vulnerable_rust_files/vuln_00021.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00021.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0019",
+    "method": "repo_search",
+    "body_sim": 0.9283154121863799,
+    "vuln_file": "vulnerable_rust_files/vuln_00022.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00022.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0020",
+    "method": "crate_versions",
+    "body_sim": 0.9622458857696031,
+    "vuln_file": "vulnerable_rust_files/vuln_00023.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00023.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0021",
+    "method": "repo_search",
+    "body_sim": 0.7325102880658436,
+    "vuln_file": "vulnerable_rust_files/vuln_00024.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00024.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2018-0022",
+    "method": "crate_versions",
+    "body_sim": 0.8635272391505079,
+    "vuln_file": "vulnerable_rust_files/vuln_00025.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00025.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0001",
+    "method": "repo_search",
+    "body_sim": 0.7388,
+    "vuln_file": "vulnerable_rust_files/vuln_00026.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00026.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0002",
+    "method": "repo_search",
+    "body_sim": 0.9057377049180327,
+    "vuln_file": "vulnerable_rust_files/vuln_00027.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00027.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0003",
+    "method": "repo_search",
+    "body_sim": 0.44564240790655885,
+    "vuln_file": "vulnerable_rust_files/vuln_00028.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00028.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0007",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00029.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00029.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0009",
+    "method": "crate_versions",
+    "body_sim": 0.9648529094895877,
+    "vuln_file": "vulnerable_rust_files/vuln_00030.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00030.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0010",
+    "method": "crate_versions",
+    "body_sim": 0.8637724550898204,
+    "vuln_file": "vulnerable_rust_files/vuln_00031.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00031.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0011",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00032.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00032.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0012",
+    "method": "crate_versions",
+    "body_sim": 0.9393128932645968,
+    "vuln_file": "vulnerable_rust_files/vuln_00033.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00033.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0013",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00034.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00034.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0014",
+    "method": "crate_versions",
+    "body_sim": 0.7250850117708606,
+    "vuln_file": "vulnerable_rust_files/vuln_00035.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00035.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0015",
+    "method": "repo_search",
+    "body_sim": 0.7617866004962779,
+    "vuln_file": "vulnerable_rust_files/vuln_00036.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00036.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0016",
+    "method": "crate_versions",
+    "body_sim": 0.8730769230769231,
+    "vuln_file": "vulnerable_rust_files/vuln_00037.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00037.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0017",
+    "method": "crate_versions",
+    "body_sim": 0.8284526154519588,
+    "vuln_file": "vulnerable_rust_files/vuln_00038.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00038.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0019",
+    "method": "repo_search",
+    "body_sim": 0.9095022624434389,
+    "vuln_file": "vulnerable_rust_files/vuln_00039.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00039.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0020",
+    "method": "repo_search",
+    "body_sim": 0.9022988505747126,
+    "vuln_file": "vulnerable_rust_files/vuln_00040.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00040.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0022",
+    "method": "repo_search",
+    "body_sim": 0.9237611181702668,
+    "vuln_file": "vulnerable_rust_files/vuln_00041.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00041.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0023",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00042.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00042.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0025",
+    "method": "repo_search",
+    "body_sim": 0.9945945945945946,
+    "vuln_file": "vulnerable_rust_files/vuln_00043.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00043.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0028",
+    "method": "crate_versions",
+    "body_sim": 0.9461235216819974,
+    "vuln_file": "vulnerable_rust_files/vuln_00044.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00044.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0032",
+    "method": "repo_search",
+    "body_sim": 0.9090909090909091,
+    "vuln_file": "vulnerable_rust_files/vuln_00045.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00045.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0033",
+    "method": "repo_search",
+    "body_sim": 0.8090737240075614,
+    "vuln_file": "vulnerable_rust_files/vuln_00046.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00046.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0035",
+    "method": "repo_search",
+    "body_sim": 0.6103896103896104,
+    "vuln_file": "vulnerable_rust_files/vuln_00047.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00047.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0036",
+    "method": "repo_search",
+    "body_sim": 0.7139107611548556,
+    "vuln_file": "vulnerable_rust_files/vuln_00048.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00048.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0037",
+    "method": "repo_search",
+    "body_sim": 0.9107597036381732,
+    "vuln_file": "vulnerable_rust_files/vuln_00049.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00049.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0038",
+    "method": "commit_diff",
+    "body_sim": 0.9502183406113537,
+    "vuln_file": "vulnerable_rust_files/vuln_00050.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00050.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2019-0039",
+    "method": "repo_search",
+    "body_sim": 0.9865575686732905,
+    "vuln_file": "vulnerable_rust_files/vuln_00051.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00051.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0001",
+    "method": "crate_versions",
+    "body_sim": 0.9298245614035088,
+    "vuln_file": "vulnerable_rust_files/vuln_00052.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00052.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0002",
+    "method": "repo_search",
+    "body_sim": 0.6292134831460674,
+    "vuln_file": "vulnerable_rust_files/vuln_00053.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00053.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0004",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00054.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00054.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0005",
+    "method": "repo_search",
+    "body_sim": 0.9932279909706546,
+    "vuln_file": "vulnerable_rust_files/vuln_00055.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00055.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0006",
+    "method": "crate_versions",
+    "body_sim": 0.9769462078182426,
+    "vuln_file": "vulnerable_rust_files/vuln_00056.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00056.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0007",
+    "method": "crate_versions",
+    "body_sim": 0.4486616937253181,
+    "vuln_file": "vulnerable_rust_files/vuln_00057.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00057.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0008",
+    "method": "crate_versions",
+    "body_sim": 0.6150914634146342,
+    "vuln_file": "vulnerable_rust_files/vuln_00058.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00058.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0009",
+    "method": "crate_versions",
+    "body_sim": 0.8142139822325222,
+    "vuln_file": "vulnerable_rust_files/vuln_00059.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00059.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0014",
+    "method": "repo_search",
+    "body_sim": 0.7924528301886793,
+    "vuln_file": "vulnerable_rust_files/vuln_00060.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00060.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0017",
+    "method": "crate_versions",
+    "body_sim": 0.8123108716510443,
+    "vuln_file": "vulnerable_rust_files/vuln_00061.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00061.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0019",
+    "method": "crate_versions",
+    "body_sim": 0.9696293343961738,
+    "vuln_file": "vulnerable_rust_files/vuln_00062.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00062.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0021",
+    "method": "repo_search",
+    "body_sim": 0.8313609467455622,
+    "vuln_file": "vulnerable_rust_files/vuln_00063.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00063.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0023",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00064.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00064.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0024",
+    "method": "repo_search",
+    "body_sim": 0.9637526652452025,
+    "vuln_file": "vulnerable_rust_files/vuln_00065.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00065.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0028",
+    "method": "crate_versions",
+    "body_sim": 0.9826139088729017,
+    "vuln_file": "vulnerable_rust_files/vuln_00066.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00066.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0029",
+    "method": "crate_versions",
+    "body_sim": 0.6202469135802469,
+    "vuln_file": "vulnerable_rust_files/vuln_00067.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00067.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0030",
+    "method": "repo_search",
+    "body_sim": 0.9798488664987406,
+    "vuln_file": "vulnerable_rust_files/vuln_00068.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00068.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0031",
+    "method": "repo_search",
+    "body_sim": 0.7108433734939759,
+    "vuln_file": "vulnerable_rust_files/vuln_00069.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00069.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0032",
+    "method": "repo_search",
+    "body_sim": 0.8270676691729323,
+    "vuln_file": "vulnerable_rust_files/vuln_00070.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00070.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0034",
+    "method": "repo_search",
+    "body_sim": 0.818346957311535,
+    "vuln_file": "vulnerable_rust_files/vuln_00071.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00071.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0035",
+    "method": "repo_search",
+    "body_sim": 0.7896995708154506,
+    "vuln_file": "vulnerable_rust_files/vuln_00072.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00072.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0037",
+    "method": "repo_search",
+    "body_sim": 0.9851694915254238,
+    "vuln_file": "vulnerable_rust_files/vuln_00073.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00073.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0039",
+    "method": "repo_search",
+    "body_sim": 0.981029810298103,
+    "vuln_file": "vulnerable_rust_files/vuln_00074.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00074.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0040",
+    "method": "repo_search",
+    "body_sim": 0.8902147971360382,
+    "vuln_file": "vulnerable_rust_files/vuln_00075.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00075.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0041",
+    "method": "repo_search",
+    "body_sim": 0.64,
+    "vuln_file": "vulnerable_rust_files/vuln_00076.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00076.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0042",
+    "method": "repo_search",
+    "body_sim": 0.822429906542056,
+    "vuln_file": "vulnerable_rust_files/vuln_00077.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00077.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0043",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00078.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00078.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0044",
+    "method": "repo_search",
+    "body_sim": 0.9362416107382551,
+    "vuln_file": "vulnerable_rust_files/vuln_00079.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00079.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0045",
+    "method": "repo_search",
+    "body_sim": 0.988399071925754,
+    "vuln_file": "vulnerable_rust_files/vuln_00080.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00080.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0047",
+    "method": "repo_search",
+    "body_sim": 0.6339468302658486,
+    "vuln_file": "vulnerable_rust_files/vuln_00081.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00081.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0048",
+    "method": "repo_search",
+    "body_sim": 0.9283154121863799,
+    "vuln_file": "vulnerable_rust_files/vuln_00082.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00082.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0049",
+    "method": "repo_search",
+    "body_sim": 0.988399071925754,
+    "vuln_file": "vulnerable_rust_files/vuln_00083.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00083.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0050",
+    "method": "repo_search",
+    "body_sim": 0.978328173374613,
+    "vuln_file": "vulnerable_rust_files/vuln_00084.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00084.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0052",
+    "method": "crate_versions",
+    "body_sim": 0.79639029892837,
+    "vuln_file": "vulnerable_rust_files/vuln_00085.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00085.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0053",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00086.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00086.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0054",
+    "method": "repo_search",
+    "body_sim": 0.9241379310344827,
+    "vuln_file": "vulnerable_rust_files/vuln_00087.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00087.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0056",
+    "method": "repo_search",
+    "body_sim": 0.7964601769911505,
+    "vuln_file": "vulnerable_rust_files/vuln_00088.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00088.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0059",
+    "method": "crate_versions",
+    "body_sim": 0.45732097186700765,
+    "vuln_file": "vulnerable_rust_files/vuln_00089.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00089.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0061",
+    "method": "repo_search",
+    "body_sim": 0.9902912621359223,
+    "vuln_file": "vulnerable_rust_files/vuln_00090.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00090.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0062",
+    "method": "crate_versions",
+    "body_sim": 0.9846870838881492,
+    "vuln_file": "vulnerable_rust_files/vuln_00091.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00091.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0069",
+    "method": "crate_versions",
+    "body_sim": 0.6389140271493212,
+    "vuln_file": "vulnerable_rust_files/vuln_00092.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00092.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0071",
+    "method": "repo_search",
+    "body_sim": 0.8557806912991657,
+    "vuln_file": "vulnerable_rust_files/vuln_00093.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00093.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0072",
+    "method": "repo_search",
+    "body_sim": 0.4630738522954092,
+    "vuln_file": "vulnerable_rust_files/vuln_00094.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00094.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0073",
+    "method": "repo_search",
+    "body_sim": 0.9463869463869464,
+    "vuln_file": "vulnerable_rust_files/vuln_00095.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00095.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0074",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00096.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00096.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0075",
+    "method": "repo_search",
+    "body_sim": 0.8931596091205212,
+    "vuln_file": "vulnerable_rust_files/vuln_00097.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00097.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0077",
+    "method": "repo_search",
+    "body_sim": 0.9217557251908397,
+    "vuln_file": "vulnerable_rust_files/vuln_00098.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00098.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0078",
+    "method": "repo_search",
+    "body_sim": 0.8716356107660456,
+    "vuln_file": "vulnerable_rust_files/vuln_00099.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00099.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0079",
+    "method": "repo_search",
+    "body_sim": 0.9818913480885312,
+    "vuln_file": "vulnerable_rust_files/vuln_00100.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00100.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0080",
+    "method": "repo_search",
+    "body_sim": 0.9377123442808607,
+    "vuln_file": "vulnerable_rust_files/vuln_00101.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00101.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0081",
+    "method": "crate_versions",
+    "body_sim": 0.7158226187352401,
+    "vuln_file": "vulnerable_rust_files/vuln_00102.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00102.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0087",
+    "method": "repo_search",
+    "body_sim": 0.9971509971509972,
+    "vuln_file": "vulnerable_rust_files/vuln_00103.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00103.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0088",
+    "method": "repo_search",
+    "body_sim": 0.7631399317406143,
+    "vuln_file": "vulnerable_rust_files/vuln_00104.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00104.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0091",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00105.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00105.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0092",
+    "method": "repo_search",
+    "body_sim": 0.30444444444444446,
+    "vuln_file": "vulnerable_rust_files/vuln_00106.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00106.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0093",
+    "method": "repo_search",
+    "body_sim": 0.24679399727148704,
+    "vuln_file": "vulnerable_rust_files/vuln_00107.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00107.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0094",
+    "method": "repo_search",
+    "body_sim": 0.5263157894736842,
+    "vuln_file": "vulnerable_rust_files/vuln_00108.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00108.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0095",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00109.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00109.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0096",
+    "method": "crate_versions",
+    "body_sim": 0.7915016204537271,
+    "vuln_file": "vulnerable_rust_files/vuln_00110.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00110.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0097",
+    "method": "repo_search",
+    "body_sim": 0.4059729351376575,
+    "vuln_file": "vulnerable_rust_files/vuln_00111.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00111.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0098",
+    "method": "repo_search",
+    "body_sim": 0.9282700421940928,
+    "vuln_file": "vulnerable_rust_files/vuln_00112.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00112.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0100",
+    "method": "repo_search",
+    "body_sim": 0.9276315789473685,
+    "vuln_file": "vulnerable_rust_files/vuln_00113.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00113.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0101",
+    "method": "repo_search",
+    "body_sim": 0.852589641434263,
+    "vuln_file": "vulnerable_rust_files/vuln_00114.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00114.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0102",
+    "method": "repo_search",
+    "body_sim": 0.9863945578231292,
+    "vuln_file": "vulnerable_rust_files/vuln_00115.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00115.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0103",
+    "method": "repo_search",
+    "body_sim": 0.541095890410959,
+    "vuln_file": "vulnerable_rust_files/vuln_00116.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00116.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0104",
+    "method": "repo_search",
+    "body_sim": 0.7631578947368421,
+    "vuln_file": "vulnerable_rust_files/vuln_00117.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00117.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0105",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00118.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00118.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0106",
+    "method": "repo_search",
+    "body_sim": 0.9337175792507204,
+    "vuln_file": "vulnerable_rust_files/vuln_00119.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00119.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0107",
+    "method": "repo_search",
+    "body_sim": 0.97265625,
+    "vuln_file": "vulnerable_rust_files/vuln_00120.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00120.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0108",
+    "method": "repo_search",
+    "body_sim": 0.94,
+    "vuln_file": "vulnerable_rust_files/vuln_00121.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00121.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0109",
+    "method": "repo_search",
+    "body_sim": 0.9839486356340289,
+    "vuln_file": "vulnerable_rust_files/vuln_00122.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00122.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0111",
+    "method": "repo_search",
+    "body_sim": 0.9714285714285714,
+    "vuln_file": "vulnerable_rust_files/vuln_00123.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00123.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0112",
+    "method": "repo_search",
+    "body_sim": 0.35419847328244275,
+    "vuln_file": "vulnerable_rust_files/vuln_00124.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00124.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0113",
+    "method": "repo_search",
+    "body_sim": 0.9622166246851386,
+    "vuln_file": "vulnerable_rust_files/vuln_00125.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00125.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0114",
+    "method": "repo_search",
+    "body_sim": 0.9655172413793104,
+    "vuln_file": "vulnerable_rust_files/vuln_00126.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00126.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0115",
+    "method": "repo_search",
+    "body_sim": 0.974025974025974,
+    "vuln_file": "vulnerable_rust_files/vuln_00127.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00127.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0116",
+    "method": "repo_search",
+    "body_sim": 0.9473684210526315,
+    "vuln_file": "vulnerable_rust_files/vuln_00128.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00128.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0117",
+    "method": "repo_search",
+    "body_sim": 0.9444444444444444,
+    "vuln_file": "vulnerable_rust_files/vuln_00129.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00129.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0118",
+    "method": "repo_search",
+    "body_sim": 0.9636048526863085,
+    "vuln_file": "vulnerable_rust_files/vuln_00130.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00130.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0119",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00131.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00131.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0120",
+    "method": "repo_search",
+    "body_sim": 0.9380530973451328,
+    "vuln_file": "vulnerable_rust_files/vuln_00132.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00132.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0121",
+    "method": "repo_search",
+    "body_sim": 0.9457364341085271,
+    "vuln_file": "vulnerable_rust_files/vuln_00133.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00133.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0122",
+    "method": "repo_search",
+    "body_sim": 0.9469387755102041,
+    "vuln_file": "vulnerable_rust_files/vuln_00134.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00134.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0123",
+    "method": "repo_search",
+    "body_sim": 0.5462962962962963,
+    "vuln_file": "vulnerable_rust_files/vuln_00135.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00135.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0124",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00136.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00136.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0126",
+    "method": "repo_search",
+    "body_sim": 0.610981308411215,
+    "vuln_file": "vulnerable_rust_files/vuln_00137.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00137.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0127",
+    "method": "commit_diff",
+    "body_sim": 0.858508604206501,
+    "vuln_file": "vulnerable_rust_files/vuln_00138.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00138.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0129",
+    "method": "repo_search",
+    "body_sim": 0.9031578947368422,
+    "vuln_file": "vulnerable_rust_files/vuln_00139.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00139.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0131",
+    "method": "repo_search",
+    "body_sim": 0.9136363636363637,
+    "vuln_file": "vulnerable_rust_files/vuln_00140.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00140.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0133",
+    "method": "repo_search",
+    "body_sim": 0.6165413533834586,
+    "vuln_file": "vulnerable_rust_files/vuln_00141.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00141.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0135",
+    "method": "repo_search",
+    "body_sim": 0.8082817961817693,
+    "vuln_file": "vulnerable_rust_files/vuln_00142.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00142.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0136",
+    "method": "repo_search",
+    "body_sim": 0.6766519823788546,
+    "vuln_file": "vulnerable_rust_files/vuln_00143.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00143.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0137",
+    "method": "repo_search",
+    "body_sim": 0.6574531095755183,
+    "vuln_file": "vulnerable_rust_files/vuln_00144.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00144.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0141",
+    "method": "repo_search",
+    "body_sim": 0.9816272965879265,
+    "vuln_file": "vulnerable_rust_files/vuln_00145.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00145.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0142",
+    "method": "repo_search",
+    "body_sim": 0.9615384615384616,
+    "vuln_file": "vulnerable_rust_files/vuln_00146.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00146.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0143",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00147.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00147.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0144",
+    "method": "repo_search",
+    "body_sim": 0.9375,
+    "vuln_file": "vulnerable_rust_files/vuln_00148.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00148.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0145",
+    "method": "repo_search",
+    "body_sim": 0.9041916167664671,
+    "vuln_file": "vulnerable_rust_files/vuln_00149.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00149.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0146",
+    "method": "crate_versions",
+    "body_sim": 0.9971197884697106,
+    "vuln_file": "vulnerable_rust_files/vuln_00150.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00150.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0147",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00151.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00151.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0148",
+    "method": "repo_search",
+    "body_sim": 0.9529411764705882,
+    "vuln_file": "vulnerable_rust_files/vuln_00152.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00152.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0150",
+    "method": "repo_search",
+    "body_sim": 0.9493873201917954,
+    "vuln_file": "vulnerable_rust_files/vuln_00153.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00153.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0151",
+    "method": "repo_search",
+    "body_sim": 0.9022988505747126,
+    "vuln_file": "vulnerable_rust_files/vuln_00154.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00154.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0152",
+    "method": "repo_search",
+    "body_sim": 0.9799426934097422,
+    "vuln_file": "vulnerable_rust_files/vuln_00155.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00155.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0154",
+    "method": "repo_search",
+    "body_sim": 0.9269521410579346,
+    "vuln_file": "vulnerable_rust_files/vuln_00156.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00156.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0158",
+    "method": "repo_search",
+    "body_sim": 0.9057377049180327,
+    "vuln_file": "vulnerable_rust_files/vuln_00157.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00157.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0159",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00158.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00158.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0161",
+    "method": "crate_versions",
+    "body_sim": 0.44384407564646855,
+    "vuln_file": "vulnerable_rust_files/vuln_00159.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00159.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0164",
+    "method": "repo_search",
+    "body_sim": 0.45336225596529284,
+    "vuln_file": "vulnerable_rust_files/vuln_00160.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00160.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0165",
+    "method": "repo_search",
+    "body_sim": 0.8530901722391084,
+    "vuln_file": "vulnerable_rust_files/vuln_00161.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00161.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0167",
+    "method": "repo_search",
+    "body_sim": 0.9107597036381732,
+    "vuln_file": "vulnerable_rust_files/vuln_00162.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00162.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2020-0168",
+    "method": "repo_search",
+    "body_sim": 0.7208297320656871,
+    "vuln_file": "vulnerable_rust_files/vuln_00163.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00163.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0002",
+    "method": "repo_search",
+    "body_sim": 0.9627679578789018,
+    "vuln_file": "vulnerable_rust_files/vuln_00164.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00164.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0003",
+    "method": "crate_versions",
+    "body_sim": 0.6831474223696111,
+    "vuln_file": "vulnerable_rust_files/vuln_00165.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00165.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0004",
+    "method": "repo_search",
+    "body_sim": 0.5207547169811321,
+    "vuln_file": "vulnerable_rust_files/vuln_00166.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00166.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0007",
+    "method": "repo_search",
+    "body_sim": 0.9409660107334525,
+    "vuln_file": "vulnerable_rust_files/vuln_00167.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00167.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0008",
+    "method": "repo_search",
+    "body_sim": 0.6917293233082706,
+    "vuln_file": "vulnerable_rust_files/vuln_00168.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00168.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0009",
+    "method": "repo_search",
+    "body_sim": 0.9737609329446064,
+    "vuln_file": "vulnerable_rust_files/vuln_00169.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00169.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0011",
+    "method": "repo_search",
+    "body_sim": 0.869198312236287,
+    "vuln_file": "vulnerable_rust_files/vuln_00170.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00170.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0012",
+    "method": "repo_search",
+    "body_sim": 0.8851774530271399,
+    "vuln_file": "vulnerable_rust_files/vuln_00171.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00171.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0014",
+    "method": "repo_search",
+    "body_sim": 0.9896907216494846,
+    "vuln_file": "vulnerable_rust_files/vuln_00172.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00172.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0015",
+    "method": "repo_search",
+    "body_sim": 0.47312286689419797,
+    "vuln_file": "vulnerable_rust_files/vuln_00173.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00173.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0016",
+    "method": "repo_search",
+    "body_sim": 0.7857142857142857,
+    "vuln_file": "vulnerable_rust_files/vuln_00174.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00174.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0017",
+    "method": "repo_search",
+    "body_sim": 0.955067920585162,
+    "vuln_file": "vulnerable_rust_files/vuln_00175.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00175.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0018",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00176.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00176.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0020",
+    "method": "repo_search",
+    "body_sim": 0.7023319615912208,
+    "vuln_file": "vulnerable_rust_files/vuln_00177.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00177.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0023",
+    "method": "crate_versions",
+    "body_sim": 0.9504605426935524,
+    "vuln_file": "vulnerable_rust_files/vuln_00178.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00178.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0026",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00179.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00179.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0028",
+    "method": "repo_search",
+    "body_sim": 0.5384615384615384,
+    "vuln_file": "vulnerable_rust_files/vuln_00180.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00180.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0029",
+    "method": "repo_search",
+    "body_sim": 0.8293838862559242,
+    "vuln_file": "vulnerable_rust_files/vuln_00181.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00181.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0030",
+    "method": "repo_search",
+    "body_sim": 0.7294117647058823,
+    "vuln_file": "vulnerable_rust_files/vuln_00182.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00182.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0031",
+    "method": "repo_search",
+    "body_sim": 0.5014180374361883,
+    "vuln_file": "vulnerable_rust_files/vuln_00183.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00183.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0032",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00184.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00184.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0033",
+    "method": "repo_search",
+    "body_sim": 0.7222222222222222,
+    "vuln_file": "vulnerable_rust_files/vuln_00185.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00185.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0035",
+    "method": "repo_search",
+    "body_sim": 0.7441176470588236,
+    "vuln_file": "vulnerable_rust_files/vuln_00186.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00186.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0036",
+    "method": "repo_search",
+    "body_sim": 0.9093546047860769,
+    "vuln_file": "vulnerable_rust_files/vuln_00187.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00187.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0038",
+    "method": "repo_search",
+    "body_sim": 0.8292682926829268,
+    "vuln_file": "vulnerable_rust_files/vuln_00188.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00188.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0040",
+    "method": "repo_search",
+    "body_sim": 0.9491525423728814,
+    "vuln_file": "vulnerable_rust_files/vuln_00189.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00189.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0041",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00190.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00190.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0043",
+    "method": "repo_search",
+    "body_sim": 0.5826351865955827,
+    "vuln_file": "vulnerable_rust_files/vuln_00191.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00191.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0044",
+    "method": "repo_search",
+    "body_sim": 0.8343558282208589,
+    "vuln_file": "vulnerable_rust_files/vuln_00192.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00192.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0046",
+    "method": "repo_search",
+    "body_sim": 0.963855421686747,
+    "vuln_file": "vulnerable_rust_files/vuln_00193.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00193.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0047",
+    "method": "repo_search",
+    "body_sim": 0.9057377049180327,
+    "vuln_file": "vulnerable_rust_files/vuln_00194.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00194.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0048",
+    "method": "repo_search",
+    "body_sim": 0.5905707196029777,
+    "vuln_file": "vulnerable_rust_files/vuln_00195.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00195.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0050",
+    "method": "repo_search",
+    "body_sim": 0.8092566619915849,
+    "vuln_file": "vulnerable_rust_files/vuln_00196.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00196.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0051",
+    "method": "repo_search",
+    "body_sim": 0.9935897435897436,
+    "vuln_file": "vulnerable_rust_files/vuln_00197.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00197.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0052",
+    "method": "repo_search",
+    "body_sim": 0.7702213279678068,
+    "vuln_file": "vulnerable_rust_files/vuln_00198.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00198.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0054",
+    "method": "repo_search",
+    "body_sim": 0.9782608695652174,
+    "vuln_file": "vulnerable_rust_files/vuln_00199.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00199.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0063",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00200.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00200.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0065",
+    "method": "repo_search",
+    "body_sim": 0.836038961038961,
+    "vuln_file": "vulnerable_rust_files/vuln_00201.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00201.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0066",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00202.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00202.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0067",
+    "method": "repo_search",
+    "body_sim": 0.8956521739130435,
+    "vuln_file": "vulnerable_rust_files/vuln_00203.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00203.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0068",
+    "method": "repo_search",
+    "body_sim": 0.9366053169734151,
+    "vuln_file": "vulnerable_rust_files/vuln_00204.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00204.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0069",
+    "method": "crate_versions",
+    "body_sim": 0.5277520814061054,
+    "vuln_file": "vulnerable_rust_files/vuln_00205.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00205.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0070",
+    "method": "crate_versions",
+    "body_sim": 0.05792052259118127,
+    "vuln_file": "vulnerable_rust_files/vuln_00206.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00206.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0071",
+    "method": "repo_search",
+    "body_sim": 0.9836065573770492,
+    "vuln_file": "vulnerable_rust_files/vuln_00207.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00207.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0072",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00208.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00208.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0073",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00209.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00209.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0074",
+    "method": "crate_versions",
+    "body_sim": 0.92228441100523,
+    "vuln_file": "vulnerable_rust_files/vuln_00210.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00210.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0078",
+    "method": "repo_search",
+    "body_sim": 0.7023319615912208,
+    "vuln_file": "vulnerable_rust_files/vuln_00211.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00211.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0079",
+    "method": "repo_search",
+    "body_sim": 0.7023319615912208,
+    "vuln_file": "vulnerable_rust_files/vuln_00212.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00212.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0080",
+    "method": "repo_search",
+    "body_sim": 0.9867549668874173,
+    "vuln_file": "vulnerable_rust_files/vuln_00213.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00213.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0083",
+    "method": "repo_search",
+    "body_sim": 0.9826589595375722,
+    "vuln_file": "vulnerable_rust_files/vuln_00214.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00214.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0085",
+    "method": "repo_search",
+    "body_sim": 0.984,
+    "vuln_file": "vulnerable_rust_files/vuln_00215.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00215.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0086",
+    "method": "repo_search",
+    "body_sim": 0.7642857142857142,
+    "vuln_file": "vulnerable_rust_files/vuln_00216.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00216.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0087",
+    "method": "repo_search",
+    "body_sim": 0.9716312056737588,
+    "vuln_file": "vulnerable_rust_files/vuln_00217.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00217.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0088",
+    "method": "repo_search",
+    "body_sim": 0.7451737451737451,
+    "vuln_file": "vulnerable_rust_files/vuln_00218.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00218.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0089",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00219.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00219.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0090",
+    "method": "repo_search",
+    "body_sim": 0.9537892791127541,
+    "vuln_file": "vulnerable_rust_files/vuln_00220.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00220.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0091",
+    "method": "repo_search",
+    "body_sim": 0.8180535966149506,
+    "vuln_file": "vulnerable_rust_files/vuln_00221.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00221.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0092",
+    "method": "repo_search",
+    "body_sim": 0.8636363636363636,
+    "vuln_file": "vulnerable_rust_files/vuln_00222.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00222.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0093",
+    "method": "crate_versions",
+    "body_sim": 0.928495197438634,
+    "vuln_file": "vulnerable_rust_files/vuln_00223.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00223.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0094",
+    "method": "repo_search",
+    "body_sim": 0.8947368421052632,
+    "vuln_file": "vulnerable_rust_files/vuln_00224.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00224.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0095",
+    "method": "repo_search",
+    "body_sim": 0.6279245283018868,
+    "vuln_file": "vulnerable_rust_files/vuln_00225.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00225.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0096",
+    "method": "repo_search",
+    "body_sim": 0.9182058047493403,
+    "vuln_file": "vulnerable_rust_files/vuln_00226.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00226.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0099",
+    "method": "repo_search",
+    "body_sim": 0.9562289562289562,
+    "vuln_file": "vulnerable_rust_files/vuln_00227.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00227.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0100",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00228.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00228.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0103",
+    "method": "repo_search",
+    "body_sim": 0.9799196787148594,
+    "vuln_file": "vulnerable_rust_files/vuln_00229.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00229.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0107",
+    "method": "repo_search",
+    "body_sim": 0.8690807799442897,
+    "vuln_file": "vulnerable_rust_files/vuln_00230.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00230.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0108",
+    "method": "repo_search",
+    "body_sim": 0.8690807799442897,
+    "vuln_file": "vulnerable_rust_files/vuln_00231.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00231.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0109",
+    "method": "repo_search",
+    "body_sim": 0.8690807799442897,
+    "vuln_file": "vulnerable_rust_files/vuln_00232.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00232.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0110",
+    "method": "repo_search",
+    "body_sim": 0.8956521739130435,
+    "vuln_file": "vulnerable_rust_files/vuln_00233.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00233.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0112",
+    "method": "repo_search",
+    "body_sim": 0.6316812439261419,
+    "vuln_file": "vulnerable_rust_files/vuln_00234.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00234.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0113",
+    "method": "repo_search",
+    "body_sim": 0.9543568464730291,
+    "vuln_file": "vulnerable_rust_files/vuln_00235.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00235.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0114",
+    "method": "crate_versions",
+    "body_sim": 0.8031746031746032,
+    "vuln_file": "vulnerable_rust_files/vuln_00236.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00236.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0115",
+    "method": "repo_search",
+    "body_sim": 0.9801324503311258,
+    "vuln_file": "vulnerable_rust_files/vuln_00237.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00237.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0116",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00238.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00238.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0117",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00239.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00239.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0118",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00240.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00240.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0119",
+    "method": "repo_search",
+    "body_sim": 0.9321266968325792,
+    "vuln_file": "vulnerable_rust_files/vuln_00241.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00241.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0120",
+    "method": "repo_search",
+    "body_sim": 0.8580481622306717,
+    "vuln_file": "vulnerable_rust_files/vuln_00242.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00242.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0121",
+    "method": "repo_search",
+    "body_sim": 0.7922192749778957,
+    "vuln_file": "vulnerable_rust_files/vuln_00243.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00243.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0123",
+    "method": "crate_versions",
+    "body_sim": 0.18208807521029194,
+    "vuln_file": "vulnerable_rust_files/vuln_00244.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00244.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0124",
+    "method": "crate_versions",
+    "body_sim": 0.911504424778761,
+    "vuln_file": "vulnerable_rust_files/vuln_00245.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00245.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0125",
+    "method": "crate_versions",
+    "body_sim": 0.9929994614970382,
+    "vuln_file": "vulnerable_rust_files/vuln_00246.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00246.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0127",
+    "method": "repo_search",
+    "body_sim": 0.9945945945945946,
+    "vuln_file": "vulnerable_rust_files/vuln_00247.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00247.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0128",
+    "method": "repo_search",
+    "body_sim": 0.7924528301886793,
+    "vuln_file": "vulnerable_rust_files/vuln_00248.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00248.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0130",
+    "method": "repo_search",
+    "body_sim": 0.4671417260490895,
+    "vuln_file": "vulnerable_rust_files/vuln_00249.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00249.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0131",
+    "method": "repo_search",
+    "body_sim": 0.9085872576177285,
+    "vuln_file": "vulnerable_rust_files/vuln_00250.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00250.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0133",
+    "method": "repo_search",
+    "body_sim": 0.7892234548335975,
+    "vuln_file": "vulnerable_rust_files/vuln_00251.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00251.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0135",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00252.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00252.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0136",
+    "method": "repo_search",
+    "body_sim": 0.8986042692939245,
+    "vuln_file": "vulnerable_rust_files/vuln_00253.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00253.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0138",
+    "method": "repo_search",
+    "body_sim": 0.8693965517241379,
+    "vuln_file": "vulnerable_rust_files/vuln_00254.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00254.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0139",
+    "method": "repo_search",
+    "body_sim": 0.7102546455609084,
+    "vuln_file": "vulnerable_rust_files/vuln_00255.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00255.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0141",
+    "method": "repo_search",
+    "body_sim": 0.9892729439809297,
+    "vuln_file": "vulnerable_rust_files/vuln_00256.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00256.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0142",
+    "method": "repo_search",
+    "body_sim": 0.9892729439809297,
+    "vuln_file": "vulnerable_rust_files/vuln_00257.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00257.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0143",
+    "method": "commit_diff",
+    "body_sim": 0.667379679144385,
+    "vuln_file": "vulnerable_rust_files/vuln_00258.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00258.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0145",
+    "method": "repo_search",
+    "body_sim": 0.7750309023485785,
+    "vuln_file": "vulnerable_rust_files/vuln_00259.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00259.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0146",
+    "method": "commit_diff",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00260.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00260.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0147",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00261.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00261.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0150",
+    "method": "repo_search",
+    "body_sim": 0.8714285714285714,
+    "vuln_file": "vulnerable_rust_files/vuln_00262.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00262.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0151",
+    "method": "repo_search",
+    "body_sim": 0.8714285714285714,
+    "vuln_file": "vulnerable_rust_files/vuln_00263.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00263.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0152",
+    "method": "crate_versions",
+    "body_sim": 0.5779859484777518,
+    "vuln_file": "vulnerable_rust_files/vuln_00264.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00264.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2021-0153",
+    "method": "repo_search",
+    "body_sim": 0.642691415313225,
+    "vuln_file": "vulnerable_rust_files/vuln_00265.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00265.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0001",
+    "method": "repo_search",
+    "body_sim": 0.7125984251968503,
+    "vuln_file": "vulnerable_rust_files/vuln_00266.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00266.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0002",
+    "method": "crate_versions",
+    "body_sim": 0.9007119741100323,
+    "vuln_file": "vulnerable_rust_files/vuln_00267.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00267.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0003",
+    "method": "crate_versions",
+    "body_sim": 0.8291427019238718,
+    "vuln_file": "vulnerable_rust_files/vuln_00268.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00268.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0006",
+    "method": "repo_search",
+    "body_sim": 0.9751861042183623,
+    "vuln_file": "vulnerable_rust_files/vuln_00269.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00269.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0007",
+    "method": "repo_search",
+    "body_sim": 0.9817275747508306,
+    "vuln_file": "vulnerable_rust_files/vuln_00270.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00270.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0008",
+    "method": "crate_versions",
+    "body_sim": 0.1731651376146789,
+    "vuln_file": "vulnerable_rust_files/vuln_00271.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00271.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0010",
+    "method": "crate_versions",
+    "body_sim": 0.9786729857819905,
+    "vuln_file": "vulnerable_rust_files/vuln_00272.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00272.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0012",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00273.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00273.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0015",
+    "method": "repo_search",
+    "body_sim": 0.9548051948051948,
+    "vuln_file": "vulnerable_rust_files/vuln_00274.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00274.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0016",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00275.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00275.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0017",
+    "method": "crate_versions",
+    "body_sim": 0.9597560975609756,
+    "vuln_file": "vulnerable_rust_files/vuln_00276.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00276.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0018",
+    "method": "repo_search",
+    "body_sim": 0.9780564263322884,
+    "vuln_file": "vulnerable_rust_files/vuln_00277.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00277.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0023",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00278.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00278.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0028",
+    "method": "crate_versions",
+    "body_sim": 0.8906064209274673,
+    "vuln_file": "vulnerable_rust_files/vuln_00279.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00279.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0030",
+    "method": "repo_search",
+    "body_sim": 0.5586981790003874,
+    "vuln_file": "vulnerable_rust_files/vuln_00280.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00280.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0031",
+    "method": "repo_search",
+    "body_sim": 0.5586981790003874,
+    "vuln_file": "vulnerable_rust_files/vuln_00281.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00281.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0034",
+    "method": "repo_search",
+    "body_sim": 0.7585585585585586,
+    "vuln_file": "vulnerable_rust_files/vuln_00282.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00282.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0035",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00283.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00283.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0037",
+    "method": "commit_diff",
+    "body_sim": 0.6420697412823397,
+    "vuln_file": "vulnerable_rust_files/vuln_00284.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00284.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0038",
+    "method": "repo_search",
+    "body_sim": 0.8040638606676342,
+    "vuln_file": "vulnerable_rust_files/vuln_00285.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00285.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0040",
+    "method": "repo_search",
+    "body_sim": 0.9854117647058823,
+    "vuln_file": "vulnerable_rust_files/vuln_00286.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00286.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0043",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00287.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00287.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0044",
+    "method": "repo_search",
+    "body_sim": 0.9939759036144579,
+    "vuln_file": "vulnerable_rust_files/vuln_00288.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00288.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0048",
+    "method": "repo_search",
+    "body_sim": 0.5780346820809249,
+    "vuln_file": "vulnerable_rust_files/vuln_00289.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00289.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0049",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00290.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00290.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0052",
+    "method": "repo_search",
+    "body_sim": 0.8173719376391982,
+    "vuln_file": "vulnerable_rust_files/vuln_00291.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00291.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0054",
+    "method": "repo_search",
+    "body_sim": 0.9446494464944649,
+    "vuln_file": "vulnerable_rust_files/vuln_00292.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00292.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0055",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00293.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00293.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0056",
+    "method": "repo_search",
+    "body_sim": 0.9523336643495531,
+    "vuln_file": "vulnerable_rust_files/vuln_00294.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00294.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0057",
+    "method": "repo_search",
+    "body_sim": 0.7372926698769395,
+    "vuln_file": "vulnerable_rust_files/vuln_00295.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00295.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0060",
+    "method": "repo_search",
+    "body_sim": 0.5813449023861171,
+    "vuln_file": "vulnerable_rust_files/vuln_00296.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00296.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0062",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00297.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00297.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0066",
+    "method": "crate_versions",
+    "body_sim": 0.56875,
+    "vuln_file": "vulnerable_rust_files/vuln_00298.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00298.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0067",
+    "method": "repo_search",
+    "body_sim": 0.9583333333333334,
+    "vuln_file": "vulnerable_rust_files/vuln_00299.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00299.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0069",
+    "method": "repo_search",
+    "body_sim": 0.9818181818181818,
+    "vuln_file": "vulnerable_rust_files/vuln_00300.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00300.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0070",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00301.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00301.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0071",
+    "method": "repo_search",
+    "body_sim": 0.9248554913294798,
+    "vuln_file": "vulnerable_rust_files/vuln_00302.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00302.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0072",
+    "method": "commit_diff",
+    "body_sim": 0.5135135135135135,
+    "vuln_file": "vulnerable_rust_files/vuln_00303.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00303.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0074",
+    "method": "repo_search",
+    "body_sim": 0.9289940828402367,
+    "vuln_file": "vulnerable_rust_files/vuln_00304.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00304.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0075",
+    "method": "commit_diff",
+    "body_sim": 0.7941834451901566,
+    "vuln_file": "vulnerable_rust_files/vuln_00305.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00305.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0076",
+    "method": "commit_diff",
+    "body_sim": 0.7572229409228115,
+    "vuln_file": "vulnerable_rust_files/vuln_00306.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00306.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0077",
+    "method": "repo_search",
+    "body_sim": 0.9413919413919414,
+    "vuln_file": "vulnerable_rust_files/vuln_00307.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00307.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0078",
+    "method": "crate_versions",
+    "body_sim": 0.2526465672011391,
+    "vuln_file": "vulnerable_rust_files/vuln_00308.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00308.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0079",
+    "method": "repo_search",
+    "body_sim": 0.9517543859649122,
+    "vuln_file": "vulnerable_rust_files/vuln_00309.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00309.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0080",
+    "method": "repo_search",
+    "body_sim": 0.9795918367346939,
+    "vuln_file": "vulnerable_rust_files/vuln_00310.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00310.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0081",
+    "method": "repo_search",
+    "body_sim": 0.984375,
+    "vuln_file": "vulnerable_rust_files/vuln_00311.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00311.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0082",
+    "method": "repo_search",
+    "body_sim": 0.9940476190476191,
+    "vuln_file": "vulnerable_rust_files/vuln_00312.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00312.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0084",
+    "method": "repo_search",
+    "body_sim": 0.5462962962962963,
+    "vuln_file": "vulnerable_rust_files/vuln_00313.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00313.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0085",
+    "method": "commit_diff",
+    "body_sim": 0.4281098546042003,
+    "vuln_file": "vulnerable_rust_files/vuln_00314.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00314.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0087",
+    "method": "commit_diff",
+    "body_sim": 0.9142857142857143,
+    "vuln_file": "vulnerable_rust_files/vuln_00315.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00315.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0088",
+    "method": "repo_search",
+    "body_sim": 0.9863945578231292,
+    "vuln_file": "vulnerable_rust_files/vuln_00316.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00316.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0091",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00317.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00317.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0092",
+    "method": "repo_search",
+    "body_sim": 0.9639344262295082,
+    "vuln_file": "vulnerable_rust_files/vuln_00318.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00318.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0094",
+    "method": "repo_search",
+    "body_sim": 0.9854545454545455,
+    "vuln_file": "vulnerable_rust_files/vuln_00319.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00319.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0095",
+    "method": "repo_search",
+    "body_sim": 0.8956521739130435,
+    "vuln_file": "vulnerable_rust_files/vuln_00320.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00320.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0096",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00321.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00321.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0097",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00322.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00322.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0098",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00323.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00323.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0099",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00324.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00324.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0100",
+    "method": "repo_search",
+    "body_sim": 0.8956521739130435,
+    "vuln_file": "vulnerable_rust_files/vuln_00325.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00325.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0101",
+    "method": "repo_search",
+    "body_sim": 0.8956521739130435,
+    "vuln_file": "vulnerable_rust_files/vuln_00326.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00326.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2022-0102",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00327.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00327.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0001",
+    "method": "crate_versions",
+    "body_sim": 0.9573226895916488,
+    "vuln_file": "vulnerable_rust_files/vuln_00328.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00328.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0003",
+    "method": "repo_search",
+    "body_sim": 0.9184549356223176,
+    "vuln_file": "vulnerable_rust_files/vuln_00329.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00329.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0005",
+    "method": "crate_versions",
+    "body_sim": 0.9573226895916488,
+    "vuln_file": "vulnerable_rust_files/vuln_00330.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00330.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0014",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00331.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00331.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0015",
+    "method": "repo_search",
+    "body_sim": 0.6855733662145499,
+    "vuln_file": "vulnerable_rust_files/vuln_00332.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00332.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0016",
+    "method": "repo_search",
+    "body_sim": 0.9857142857142858,
+    "vuln_file": "vulnerable_rust_files/vuln_00333.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00333.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0017",
+    "method": "repo_search",
+    "body_sim": 0.8216766273623001,
+    "vuln_file": "vulnerable_rust_files/vuln_00334.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00334.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0018",
+    "method": "commit_diff",
+    "body_sim": 0.19663648124191463,
+    "vuln_file": "vulnerable_rust_files/vuln_00335.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00335.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0020",
+    "method": "repo_search",
+    "body_sim": 0.613875262789068,
+    "vuln_file": "vulnerable_rust_files/vuln_00336.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00336.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0027",
+    "method": "commit_diff",
+    "body_sim": 0.6568421052631579,
+    "vuln_file": "vulnerable_rust_files/vuln_00337.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00337.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0028",
+    "method": "repo_search",
+    "body_sim": 0.8627450980392157,
+    "vuln_file": "vulnerable_rust_files/vuln_00338.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00338.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0029",
+    "method": "crate_versions",
+    "body_sim": 0.8949666743277408,
+    "vuln_file": "vulnerable_rust_files/vuln_00339.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00339.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0031",
+    "method": "crate_versions",
+    "body_sim": 0.8772362739049969,
+    "vuln_file": "vulnerable_rust_files/vuln_00340.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00340.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0032",
+    "method": "repo_search",
+    "body_sim": 0.988950276243094,
+    "vuln_file": "vulnerable_rust_files/vuln_00341.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00341.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0033",
+    "method": "repo_search",
+    "body_sim": 0.14909478168264112,
+    "vuln_file": "vulnerable_rust_files/vuln_00342.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00342.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0034",
+    "method": "repo_search",
+    "body_sim": 0.7023319615912208,
+    "vuln_file": "vulnerable_rust_files/vuln_00343.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00343.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0035",
+    "method": "crate_versions",
+    "body_sim": 0.9087004347598345,
+    "vuln_file": "vulnerable_rust_files/vuln_00344.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00344.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0036",
+    "method": "repo_search",
+    "body_sim": 0.9981718464351006,
+    "vuln_file": "vulnerable_rust_files/vuln_00345.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00345.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0038",
+    "method": "crate_versions",
+    "body_sim": 0.9478699038021072,
+    "vuln_file": "vulnerable_rust_files/vuln_00346.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00346.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0039",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00347.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00347.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0040",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00348.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00348.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0042",
+    "method": "repo_search",
+    "body_sim": 0.8412470023980816,
+    "vuln_file": "vulnerable_rust_files/vuln_00349.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00349.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0043",
+    "method": "repo_search",
+    "body_sim": 0.9546165884194053,
+    "vuln_file": "vulnerable_rust_files/vuln_00350.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00350.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0044",
+    "method": "repo_search",
+    "body_sim": 0.6473108043788672,
+    "vuln_file": "vulnerable_rust_files/vuln_00351.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00351.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0045",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00352.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00352.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0046",
+    "method": "repo_search",
+    "body_sim": 0.975,
+    "vuln_file": "vulnerable_rust_files/vuln_00353.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00353.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0047",
+    "method": "repo_search",
+    "body_sim": 0.8062283737024222,
+    "vuln_file": "vulnerable_rust_files/vuln_00354.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00354.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0048",
+    "method": "repo_search",
+    "body_sim": 0.6031976744186046,
+    "vuln_file": "vulnerable_rust_files/vuln_00355.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00355.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0049",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00356.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00356.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0051",
+    "method": "repo_search",
+    "body_sim": 0.9136490250696379,
+    "vuln_file": "vulnerable_rust_files/vuln_00357.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00357.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0053",
+    "method": "crate_versions",
+    "body_sim": 0.8030788967286723,
+    "vuln_file": "vulnerable_rust_files/vuln_00358.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00358.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0055",
+    "method": "repo_search",
+    "body_sim": 0.8034682080924855,
+    "vuln_file": "vulnerable_rust_files/vuln_00359.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00359.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0056",
+    "method": "commit_diff",
+    "body_sim": 0.7370170336518488,
+    "vuln_file": "vulnerable_rust_files/vuln_00360.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00360.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0059",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00361.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00361.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0065",
+    "method": "repo_search",
+    "body_sim": 0.9854368932038835,
+    "vuln_file": "vulnerable_rust_files/vuln_00362.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00362.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0067",
+    "method": "repo_search",
+    "body_sim": 0.7927927927927928,
+    "vuln_file": "vulnerable_rust_files/vuln_00363.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00363.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0068",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00364.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00364.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0070",
+    "method": "crate_versions",
+    "body_sim": 0.9830320659325438,
+    "vuln_file": "vulnerable_rust_files/vuln_00365.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00365.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0071",
+    "method": "repo_search",
+    "body_sim": 0.9527896995708155,
+    "vuln_file": "vulnerable_rust_files/vuln_00366.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00366.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0072",
+    "method": "repo_search",
+    "body_sim": 0.6473108043788672,
+    "vuln_file": "vulnerable_rust_files/vuln_00367.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00367.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0073",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00368.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00368.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0074",
+    "method": "crate_versions",
+    "body_sim": 0.5756027355996117,
+    "vuln_file": "vulnerable_rust_files/vuln_00369.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00369.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0075",
+    "method": "repo_search",
+    "body_sim": 0.8024362390559574,
+    "vuln_file": "vulnerable_rust_files/vuln_00370.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00370.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0076",
+    "method": "repo_search",
+    "body_sim": 0.6065400843881856,
+    "vuln_file": "vulnerable_rust_files/vuln_00371.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00371.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0077",
+    "method": "commit_diff",
+    "body_sim": 0.9889624724061811,
+    "vuln_file": "vulnerable_rust_files/vuln_00372.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00372.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0079",
+    "method": "commit_diff",
+    "body_sim": 0.8239564428312159,
+    "vuln_file": "vulnerable_rust_files/vuln_00373.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00373.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0080",
+    "method": "repo_search",
+    "body_sim": 0.9622980251346499,
+    "vuln_file": "vulnerable_rust_files/vuln_00374.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00374.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0081",
+    "method": "repo_search",
+    "body_sim": 0.5420420420420421,
+    "vuln_file": "vulnerable_rust_files/vuln_00375.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00375.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0082",
+    "method": "repo_search",
+    "body_sim": 0.2040268456375839,
+    "vuln_file": "vulnerable_rust_files/vuln_00376.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00376.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0084",
+    "method": "repo_search",
+    "body_sim": 0.9851851851851852,
+    "vuln_file": "vulnerable_rust_files/vuln_00377.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00377.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0085",
+    "method": "commit_diff",
+    "body_sim": 0.8152610441767069,
+    "vuln_file": "vulnerable_rust_files/vuln_00378.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00378.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0086",
+    "method": "repo_search",
+    "body_sim": 0.8034682080924855,
+    "vuln_file": "vulnerable_rust_files/vuln_00379.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00379.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0087",
+    "method": "repo_search",
+    "body_sim": 0.8926829268292683,
+    "vuln_file": "vulnerable_rust_files/vuln_00380.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00380.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0088",
+    "method": "repo_search",
+    "body_sim": 0.5350140056022409,
+    "vuln_file": "vulnerable_rust_files/vuln_00381.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00381.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0089",
+    "method": "commit_diff",
+    "body_sim": 0.8517110266159695,
+    "vuln_file": "vulnerable_rust_files/vuln_00382.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00382.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0090",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00383.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00383.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0091",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00384.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00384.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0092",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00385.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00385.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0093",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00386.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00386.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2023-0094",
+    "method": "commit_diff",
+    "body_sim": 0.7457627118644068,
+    "vuln_file": "vulnerable_rust_files/vuln_00387.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00387.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0002",
+    "method": "crate_versions",
+    "body_sim": 0.5584594222833562,
+    "vuln_file": "vulnerable_rust_files/vuln_00388.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00388.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0004",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00389.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00389.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0005",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00390.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00390.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0006",
+    "method": "repo_search",
+    "body_sim": 0.9964664310954063,
+    "vuln_file": "vulnerable_rust_files/vuln_00391.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00391.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0007",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00392.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00392.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0008",
+    "method": "repo_search",
+    "body_sim": 0.704119850187266,
+    "vuln_file": "vulnerable_rust_files/vuln_00393.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00393.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0009",
+    "method": "repo_search",
+    "body_sim": 0.704119850187266,
+    "vuln_file": "vulnerable_rust_files/vuln_00394.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00394.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0011",
+    "method": "repo_search",
+    "body_sim": 0.9666666666666667,
+    "vuln_file": "vulnerable_rust_files/vuln_00395.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00395.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0012",
+    "method": "crate_versions",
+    "body_sim": 0.937037037037037,
+    "vuln_file": "vulnerable_rust_files/vuln_00396.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00396.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0014",
+    "method": "repo_search",
+    "body_sim": 0.98,
+    "vuln_file": "vulnerable_rust_files/vuln_00397.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00397.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0017",
+    "method": "repo_search",
+    "body_sim": 0.9811320754716981,
+    "vuln_file": "vulnerable_rust_files/vuln_00398.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00398.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0018",
+    "method": "repo_search",
+    "body_sim": 0.9851694915254238,
+    "vuln_file": "vulnerable_rust_files/vuln_00399.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00399.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0019",
+    "method": "crate_versions",
+    "body_sim": 0.7210986267166043,
+    "vuln_file": "vulnerable_rust_files/vuln_00400.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00400.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0020",
+    "method": "crate_versions",
+    "body_sim": 0.12392918332381496,
+    "vuln_file": "vulnerable_rust_files/vuln_00401.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00401.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0021",
+    "method": "crate_versions",
+    "body_sim": 0.9807949977668602,
+    "vuln_file": "vulnerable_rust_files/vuln_00402.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00402.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0331",
+    "method": "repo_search",
+    "body_sim": 0.7553191489361702,
+    "vuln_file": "vulnerable_rust_files/vuln_00403.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00403.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0335",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00404.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00404.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0336",
+    "method": "crate_versions",
+    "body_sim": 0.899971256108077,
+    "vuln_file": "vulnerable_rust_files/vuln_00405.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00405.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0337",
+    "method": "repo_search",
+    "body_sim": 0.9650793650793651,
+    "vuln_file": "vulnerable_rust_files/vuln_00406.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00406.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0338",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00407.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00407.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0339",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00408.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00408.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0340",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00409.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00409.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0341",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00410.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00410.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0342",
+    "method": "crate_versions",
+    "body_sim": 0.993987388180085,
+    "vuln_file": "vulnerable_rust_files/vuln_00411.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00411.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0345",
+    "method": "crate_versions",
+    "body_sim": 0.9545005833258547,
+    "vuln_file": "vulnerable_rust_files/vuln_00412.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00412.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0346",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00413.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00413.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0347",
+    "method": "crate_versions",
+    "body_sim": 0.9959244164505372,
+    "vuln_file": "vulnerable_rust_files/vuln_00414.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00414.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0348",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00415.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00415.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0349",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00416.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00416.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0350",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00417.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00417.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0351",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00418.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00418.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0352",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00419.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00419.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0353",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00420.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00420.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0354",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00421.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00421.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0355",
+    "method": "crate_versions",
+    "body_sim": 0.9595375722543352,
+    "vuln_file": "vulnerable_rust_files/vuln_00422.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00422.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0356",
+    "method": "repo_search",
+    "body_sim": 0.3516068052930057,
+    "vuln_file": "vulnerable_rust_files/vuln_00423.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00423.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0358",
+    "method": "crate_versions",
+    "body_sim": 0.2847130037699782,
+    "vuln_file": "vulnerable_rust_files/vuln_00424.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00424.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0359",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00425.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00425.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0360",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00426.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00426.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0361",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00427.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00427.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0362",
+    "method": "repo_search",
+    "body_sim": 0.825136612021858,
+    "vuln_file": "vulnerable_rust_files/vuln_00428.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00428.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0363",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00429.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00429.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0364",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00430.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00430.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0366",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00431.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00431.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0367",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00432.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00432.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0369",
+    "method": "repo_search",
+    "body_sim": 0.2040268456375839,
+    "vuln_file": "vulnerable_rust_files/vuln_00433.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00433.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0371",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00434.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00434.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0373",
+    "method": "crate_versions",
+    "body_sim": 0.9845681643788899,
+    "vuln_file": "vulnerable_rust_files/vuln_00435.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00435.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0374",
+    "method": "repo_search",
+    "body_sim": 0.9679245283018868,
+    "vuln_file": "vulnerable_rust_files/vuln_00436.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00436.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0375",
+    "method": "repo_search",
+    "body_sim": 0.7750309023485785,
+    "vuln_file": "vulnerable_rust_files/vuln_00437.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00437.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0376",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00438.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00438.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0377",
+    "method": "repo_search",
+    "body_sim": 0.9891067538126361,
+    "vuln_file": "vulnerable_rust_files/vuln_00439.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00439.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0378",
+    "method": "crate_versions",
+    "body_sim": 0.9344409153839889,
+    "vuln_file": "vulnerable_rust_files/vuln_00440.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00440.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0379",
+    "method": "repo_search",
+    "body_sim": 0.6960352422907489,
+    "vuln_file": "vulnerable_rust_files/vuln_00441.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00441.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0382",
+    "method": "repo_search",
+    "body_sim": 0.9222222222222223,
+    "vuln_file": "vulnerable_rust_files/vuln_00442.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00442.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0383",
+    "method": "repo_search",
+    "body_sim": 0.9285714285714286,
+    "vuln_file": "vulnerable_rust_files/vuln_00443.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00443.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0384",
+    "method": "repo_search",
+    "body_sim": 0.9142857142857143,
+    "vuln_file": "vulnerable_rust_files/vuln_00444.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00444.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0385",
+    "method": "repo_search",
+    "body_sim": 0.9443609022556391,
+    "vuln_file": "vulnerable_rust_files/vuln_00445.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00445.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0386",
+    "method": "repo_search",
+    "body_sim": 0.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00446.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00446.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0388",
+    "method": "repo_search",
+    "body_sim": 0.9041309431021044,
+    "vuln_file": "vulnerable_rust_files/vuln_00447.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00447.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0389",
+    "method": "repo_search",
+    "body_sim": 0.9973753280839895,
+    "vuln_file": "vulnerable_rust_files/vuln_00448.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00448.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0390",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00449.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00449.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0395",
+    "method": "repo_search",
+    "body_sim": 0.7326732673267327,
+    "vuln_file": "vulnerable_rust_files/vuln_00450.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00450.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0396",
+    "method": "repo_search",
+    "body_sim": 0.8293391430646333,
+    "vuln_file": "vulnerable_rust_files/vuln_00451.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00451.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0399",
+    "method": "crate_versions",
+    "body_sim": 0.9705058923106973,
+    "vuln_file": "vulnerable_rust_files/vuln_00452.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00452.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0400",
+    "method": "crate_versions",
+    "body_sim": 0.9714285714285714,
+    "vuln_file": "vulnerable_rust_files/vuln_00453.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00453.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0401",
+    "method": "repo_search",
+    "body_sim": 0.8977777777777778,
+    "vuln_file": "vulnerable_rust_files/vuln_00454.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00454.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0402",
+    "method": "crate_versions",
+    "body_sim": 0.9813381884387802,
+    "vuln_file": "vulnerable_rust_files/vuln_00455.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00455.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0403",
+    "method": "repo_search",
+    "body_sim": 0.9965397923875432,
+    "vuln_file": "vulnerable_rust_files/vuln_00456.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00456.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0404",
+    "method": "repo_search",
+    "body_sim": 0.996031746031746,
+    "vuln_file": "vulnerable_rust_files/vuln_00457.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00457.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0405",
+    "method": "repo_search",
+    "body_sim": 0.8785942492012779,
+    "vuln_file": "vulnerable_rust_files/vuln_00458.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00458.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0406",
+    "method": "crate_versions",
+    "body_sim": 0.9997875504567665,
+    "vuln_file": "vulnerable_rust_files/vuln_00459.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00459.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0408",
+    "method": "repo_search",
+    "body_sim": 0.728354263053536,
+    "vuln_file": "vulnerable_rust_files/vuln_00460.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00460.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0409",
+    "method": "crate_versions",
+    "body_sim": 0.9987174651075066,
+    "vuln_file": "vulnerable_rust_files/vuln_00461.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00461.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0424",
+    "method": "repo_search",
+    "body_sim": 0.9543147208121827,
+    "vuln_file": "vulnerable_rust_files/vuln_00462.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00462.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0425",
+    "method": "repo_search",
+    "body_sim": 0.8441011235955056,
+    "vuln_file": "vulnerable_rust_files/vuln_00463.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00463.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0426",
+    "method": "repo_search",
+    "body_sim": 0.9745852453229792,
+    "vuln_file": "vulnerable_rust_files/vuln_00464.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00464.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0427",
+    "method": "repo_search",
+    "body_sim": 0.8441011235955056,
+    "vuln_file": "vulnerable_rust_files/vuln_00465.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00465.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0430",
+    "method": "repo_search",
+    "body_sim": 0.8436830835117773,
+    "vuln_file": "vulnerable_rust_files/vuln_00466.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00466.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0431",
+    "method": "repo_search",
+    "body_sim": 0.7409395973154362,
+    "vuln_file": "vulnerable_rust_files/vuln_00467.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00467.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0432",
+    "method": "crate_versions",
+    "body_sim": 0.9852236828696627,
+    "vuln_file": "vulnerable_rust_files/vuln_00468.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00468.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0433",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00469.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00469.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0434",
+    "method": "repo_search",
+    "body_sim": 0.3516068052930057,
+    "vuln_file": "vulnerable_rust_files/vuln_00470.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00470.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0435",
+    "method": "repo_search",
+    "body_sim": 0.20259845716605765,
+    "vuln_file": "vulnerable_rust_files/vuln_00471.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00471.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0436",
+    "method": "repo_search",
+    "body_sim": 0.9942857142857143,
+    "vuln_file": "vulnerable_rust_files/vuln_00472.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00472.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0437",
+    "method": "repo_search",
+    "body_sim": 0.44564240790655885,
+    "vuln_file": "vulnerable_rust_files/vuln_00473.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00473.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0438",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00474.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00474.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0439",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00475.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00475.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0440",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00476.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00476.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0441",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00477.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00477.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0442",
+    "method": "repo_search",
+    "body_sim": 0.8956521739130435,
+    "vuln_file": "vulnerable_rust_files/vuln_00478.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00478.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2024-0443",
+    "method": "repo_search",
+    "body_sim": 0.6476010399432758,
+    "vuln_file": "vulnerable_rust_files/vuln_00479.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00479.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0000",
+    "method": "repo_search",
+    "body_sim": 0.3516068052930057,
+    "vuln_file": "vulnerable_rust_files/vuln_00480.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00480.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0001",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00481.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00481.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0002",
+    "method": "repo_search",
+    "body_sim": 0.6960352422907489,
+    "vuln_file": "vulnerable_rust_files/vuln_00482.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00482.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0003",
+    "method": "repo_search",
+    "body_sim": 0.6960352422907489,
+    "vuln_file": "vulnerable_rust_files/vuln_00483.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00483.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0004",
+    "method": "repo_search",
+    "body_sim": 0.6473108043788672,
+    "vuln_file": "vulnerable_rust_files/vuln_00484.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00484.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0006",
+    "method": "repo_search",
+    "body_sim": 0.7294685990338164,
+    "vuln_file": "vulnerable_rust_files/vuln_00485.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00485.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0007",
+    "method": "repo_search",
+    "body_sim": 0.9860917941585535,
+    "vuln_file": "vulnerable_rust_files/vuln_00486.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00486.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0009",
+    "method": "repo_search",
+    "body_sim": 0.9860917941585535,
+    "vuln_file": "vulnerable_rust_files/vuln_00487.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00487.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0010",
+    "method": "repo_search",
+    "body_sim": 0.9860917941585535,
+    "vuln_file": "vulnerable_rust_files/vuln_00488.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00488.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0012",
+    "method": "repo_search",
+    "body_sim": 0.7527593818984547,
+    "vuln_file": "vulnerable_rust_files/vuln_00489.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00489.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0013",
+    "method": "repo_search",
+    "body_sim": 0.9823529411764705,
+    "vuln_file": "vulnerable_rust_files/vuln_00490.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00490.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0014",
+    "method": "repo_search",
+    "body_sim": 0.9916483516483516,
+    "vuln_file": "vulnerable_rust_files/vuln_00491.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00491.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0016",
+    "method": "repo_search",
+    "body_sim": 0.9313868613138686,
+    "vuln_file": "vulnerable_rust_files/vuln_00492.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00492.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0017",
+    "method": "repo_search",
+    "body_sim": 0.7294685990338164,
+    "vuln_file": "vulnerable_rust_files/vuln_00493.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00493.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0018",
+    "method": "repo_search",
+    "body_sim": 0.7384764677341097,
+    "vuln_file": "vulnerable_rust_files/vuln_00494.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00494.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0019",
+    "method": "repo_search",
+    "body_sim": 0.9721115537848606,
+    "vuln_file": "vulnerable_rust_files/vuln_00495.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00495.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0020",
+    "method": "repo_search",
+    "body_sim": 0.9375951293759512,
+    "vuln_file": "vulnerable_rust_files/vuln_00496.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00496.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0021",
+    "method": "repo_search",
+    "body_sim": 0.5631905146860684,
+    "vuln_file": "vulnerable_rust_files/vuln_00497.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00497.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0022",
+    "method": "crate_versions",
+    "body_sim": 0.7944006999125109,
+    "vuln_file": "vulnerable_rust_files/vuln_00498.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00498.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0023",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00499.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00499.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0024",
+    "method": "commit_diff",
+    "body_sim": 0.9303621169916435,
+    "vuln_file": "vulnerable_rust_files/vuln_00500.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00500.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0025",
+    "method": "repo_search",
+    "body_sim": 0.9848942598187311,
+    "vuln_file": "vulnerable_rust_files/vuln_00501.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00501.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0027",
+    "method": "repo_search",
+    "body_sim": 0.9659863945578231,
+    "vuln_file": "vulnerable_rust_files/vuln_00502.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00502.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0028",
+    "method": "repo_search",
+    "body_sim": 0.9646643109540636,
+    "vuln_file": "vulnerable_rust_files/vuln_00503.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00503.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0029",
+    "method": "repo_search",
+    "body_sim": 0.7042889390519187,
+    "vuln_file": "vulnerable_rust_files/vuln_00504.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00504.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0032",
+    "method": "crate_versions",
+    "body_sim": 0.37151106833493747,
+    "vuln_file": "vulnerable_rust_files/vuln_00505.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00505.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0035",
+    "method": "repo_search",
+    "body_sim": 0.5384615384615384,
+    "vuln_file": "vulnerable_rust_files/vuln_00506.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00506.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0036",
+    "method": "repo_search",
+    "body_sim": 0.981203007518797,
+    "vuln_file": "vulnerable_rust_files/vuln_00507.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00507.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0040",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00508.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00508.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0041",
+    "method": "crate_versions",
+    "body_sim": 0.8979537602976349,
+    "vuln_file": "vulnerable_rust_files/vuln_00509.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00509.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0042",
+    "method": "repo_search",
+    "body_sim": 0.8777484608619174,
+    "vuln_file": "vulnerable_rust_files/vuln_00510.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00510.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0043",
+    "method": "crate_versions",
+    "body_sim": 0.9943765281173594,
+    "vuln_file": "vulnerable_rust_files/vuln_00511.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00511.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0044",
+    "method": "repo_search",
+    "body_sim": 0.8037589828634605,
+    "vuln_file": "vulnerable_rust_files/vuln_00512.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00512.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0045",
+    "method": "repo_search",
+    "body_sim": 0.9673590504451038,
+    "vuln_file": "vulnerable_rust_files/vuln_00513.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00513.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0046",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00514.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00514.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0047",
+    "method": "crate_versions",
+    "body_sim": 0.9992098120726973,
+    "vuln_file": "vulnerable_rust_files/vuln_00515.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00515.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0048",
+    "method": "repo_search",
+    "body_sim": 0.948306595365419,
+    "vuln_file": "vulnerable_rust_files/vuln_00516.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00516.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0049",
+    "method": "repo_search",
+    "body_sim": 0.7294117647058823,
+    "vuln_file": "vulnerable_rust_files/vuln_00517.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00517.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0050",
+    "method": "crate_versions",
+    "body_sim": 0.6569838945827233,
+    "vuln_file": "vulnerable_rust_files/vuln_00518.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00518.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0051",
+    "method": "repo_search",
+    "body_sim": 0.4059729351376575,
+    "vuln_file": "vulnerable_rust_files/vuln_00519.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00519.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0052",
+    "method": "repo_search",
+    "body_sim": 0.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00520.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00520.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0053",
+    "method": "repo_search",
+    "body_sim": 0.9491525423728814,
+    "vuln_file": "vulnerable_rust_files/vuln_00521.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00521.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0054",
+    "method": "crate_versions",
+    "body_sim": 0.8235294117647058,
+    "vuln_file": "vulnerable_rust_files/vuln_00522.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00522.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0056",
+    "method": "repo_search",
+    "body_sim": 0.8565737051792829,
+    "vuln_file": "vulnerable_rust_files/vuln_00523.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00523.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0057",
+    "method": "repo_search",
+    "body_sim": 0.7997601918465228,
+    "vuln_file": "vulnerable_rust_files/vuln_00524.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00524.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0062",
+    "method": "crate_versions",
+    "body_sim": 0.8298415942769545,
+    "vuln_file": "vulnerable_rust_files/vuln_00525.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00525.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0065",
+    "method": "repo_search",
+    "body_sim": 0.3516068052930057,
+    "vuln_file": "vulnerable_rust_files/vuln_00526.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00526.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0066",
+    "method": "repo_search",
+    "body_sim": 0.969488188976378,
+    "vuln_file": "vulnerable_rust_files/vuln_00527.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00527.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0070",
+    "method": "repo_search",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00528.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00528.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0071",
+    "method": "crate_versions",
+    "body_sim": 0.9875848400426304,
+    "vuln_file": "vulnerable_rust_files/vuln_00529.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00529.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0073",
+    "method": "crate_versions",
+    "body_sim": 0.9446460980036298,
+    "vuln_file": "vulnerable_rust_files/vuln_00530.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00530.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0105",
+    "method": "repo_search",
+    "body_sim": 0.4586267605633803,
+    "vuln_file": "vulnerable_rust_files/vuln_00531.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00531.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0106",
+    "method": "repo_search",
+    "body_sim": 0.5384615384615384,
+    "vuln_file": "vulnerable_rust_files/vuln_00532.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00532.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0107",
+    "method": "repo_search",
+    "body_sim": 0.989010989010989,
+    "vuln_file": "vulnerable_rust_files/vuln_00533.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00533.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0112",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00534.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00534.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0118",
+    "method": "crate_versions",
+    "body_sim": 1.0,
+    "vuln_file": "vulnerable_rust_files/vuln_00535.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00535.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0120",
+    "method": "repo_search",
+    "body_sim": 0.8813559322033898,
+    "vuln_file": "vulnerable_rust_files/vuln_00536.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00536.rs"
+  },
+  {
+    "rustsec_id": "RUSTSEC-2025-0122",
+    "method": "repo_search",
+    "body_sim": 0.6305732484076433,
+    "vuln_file": "vulnerable_rust_files/vuln_00537.rs",
+    "safe_file": "non_vulnerable_rust_files/safe_00537.rs"
+  }
+]

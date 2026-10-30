@@ -1,0 +1,4 @@
+CRATE-LEVEL SPLIT RESULTS
+==================================================
+TF-IDF + LR: 0.9474
+Static RF: 0.7037

@@ -1,0 +1,28 @@
+RustXec function-level pair construction
+==============================================
+advisories in metadata    : 102
+advisories yielding pairs : 81
+pairs emitted             : 155
+files emitted             : 310
+distinct crates           : 69
+per-advisory cap          : 3
+
+body similarity within pairs
+  mean   0.8459
+  median 0.9143
+  min 0.0930  max 0.9996
+  >0.99     20
+  0.95-0.99 36
+  0.70-0.95 71
+  <=0.70    28
+
+pairs on crates shared with v4: 31 (9 crates) -- exclude from transfer test
+
+exclusion reasons
+  over_per_advisory_cap                  901
+  function_missing_at_one_revision       204
+  identical_after_normalization          41
+  no_usable_function_pairs               10
+  unsupported_link                       6
+  rev_resolution_failed                  4
+  no_rust_files_changed                  1
